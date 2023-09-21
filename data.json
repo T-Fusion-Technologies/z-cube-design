@@ -1,0 +1,391 @@
+[
+	{
+		"id": "1",
+		"title": "Panache",
+		"seo_url": "panache",
+		"company": "india",
+		"areas": "2500",
+		"duration": "50 Days", 
+		"location": "Borivali - Mumbai",	
+		"year": "",	
+		"categories": [
+			{ "category": "all" },
+			{ "category": "commercial" },
+			{ "category": "retail" },
+			{ "category": "residential" },
+			{ "category": "hospitality" },
+			{ "category": "architectural" }
+		],
+		"type": "retail",
+		"works": [
+			{ "worktyp": "turnkey interior" },
+			{ "worktyp": "mep consultant" },
+			{ "worktyp": "project management" } 
+		],
+		"thumbnail": "img/projects/panache/thumb.jpg", 
+		"gallery": [
+			{ "gallery_pic": "img/projects/panache/1.jpg" },
+			{ "gallery_pic": "img/projects/panache/2.jpg" },
+			{ "gallery_pic": "img/projects/panache/3.jpg" },
+			{ "gallery_pic": "img/projects/panache/4.jpg" },
+			{ "gallery_pic": "img/projects/panache/5.jpg" },
+			{ "gallery_pic": "img/projects/panache/6.jpg" }, 
+			{ "gallery_pic": "img/projects/panache/7.jpg" }, 
+			{ "gallery_pic": "img/projects/panache/8.jpg" }, 
+			{ "gallery_pic": "img/projects/panache/9.jpg" } 
+		]
+	},
+	{
+		"id": "2",
+		"title": "Audio Vision India Pvt. Ltd.",
+		"seo_url": "audio-vision-india",
+		"company": "india",
+		"areas": "2500",
+		"duration": "60 Days",
+		"location": "Mumbai", 
+		"year": "",	
+		"categories": [
+			{ "category": "all" },
+			{ "category": "commercial" },
+			{ "category": "retail" },
+			{ "category": "residential" },
+			{ "category": "hospitality" },
+			{ "category": "architectural" }
+		],
+		"type": "commercial",
+		"works": [
+			{ "worktyp": "turnkey interior" },
+			{ "worktyp": "mep consultant" },
+			{ "worktyp": "project management" } 
+		],
+		"thumbnail": "img/projects/audio_vision/thumb.jpg", 
+		"gallery": [
+			{ "gallery_pic": "img/projects/audio_vision/1.jpg" },
+			{ "gallery_pic": "img/projects/audio_vision/2.jpg" },
+			{ "gallery_pic": "img/projects/audio_vision/3.jpg" },
+			{ "gallery_pic": "img/projects/audio_vision/4.jpg" },
+			{ "gallery_pic": "img/projects/audio_vision/5.jpg" },
+			{ "gallery_pic": "img/projects/audio_vision/6.jpg" },
+			{ "gallery_pic": "img/projects/audio_vision/7.jpg" },
+			{ "gallery_pic": "img/projects/audio_vision/8.jpg" },
+			{ "gallery_pic": "img/projects/audio_vision/9.jpg" } 
+		]
+	},
+	{
+		"id": "3",
+		"title": "Commonwelth",
+		"seo_url": "commonwelth",
+		"company": "india",
+		"areas": "14000 ",
+		"duration": "3 Month",
+		"location": "Chinchpokli - Mumbai", 
+		"year": "",	
+		"categories": [
+			{ "category": "all" },
+			{ "category": "commercial" },
+			{ "category": "retail" },
+			{ "category": "residential" },
+			{ "category": "hospitality" },
+			{ "category": "architectural" }
+		],
+		"type": "commercial",
+		"works": [
+			{ "worktyp": "turnkey interior" },
+			{ "worktyp": "mep consultant" },
+			{ "worktyp": "project management" } 
+		],
+		"thumbnail": "img/projects/commonwelth/thumb.jpg", 
+		"gallery": [
+			{ "gallery_pic": "img/projects/commonwelth/1.jpg" },
+			{ "gallery_pic": "img/projects/commonwelth/2.jpg" },
+			{ "gallery_pic": "img/projects/commonwelth/3.jpg" },
+			{ "gallery_pic": "img/projects/commonwelth/4.jpg" },
+			{ "gallery_pic": "img/projects/commonwelth/5.jpg" },
+			{ "gallery_pic": "img/projects/commonwelth/6.jpg" },
+			{ "gallery_pic": "img/projects/commonwelth/7.jpg" },
+			{ "gallery_pic": "img/projects/commonwelth/8.jpg" },
+			{ "gallery_pic": "img/projects/commonwelth/9.jpg" } 
+		]
+	},
+	{
+		"id": "4",
+		"title": "Residence",
+		"seo_url": "residence",
+		"company": "india",
+		"areas": "",
+		"duration": "",
+		"location": "", 
+		"year": "",	
+		"categories": [
+			{ "category": "all" },
+			{ "category": "commercial" },
+			{ "category": "retail" },
+			{ "category": "residential" },
+			{ "category": "hospitality" },
+			{ "category": "architectural" }
+		],
+		"type": "retail",
+		"works": [
+			{ "worktyp": "turnkey interior" },
+			{ "worktyp": "mep consultant" },
+			{ "worktyp": "project management" } 
+		],
+		"thumbnail": "img/projects/residence/thumb.jpg", 
+		"gallery": [
+			{ "gallery_pic": "img/projects/residence/1.jpg" },
+			{ "gallery_pic": "img/projects/residence/2.jpg" },
+			{ "gallery_pic": "img/projects/residence/3.jpg" },
+			{ "gallery_pic": "img/projects/residence/4.jpg" },
+			{ "gallery_pic": "img/projects/residence/5.jpg" },
+			{ "gallery_pic": "img/projects/residence/6.jpg" },
+			{ "gallery_pic": "img/projects/residence/7.jpg" },
+			{ "gallery_pic": "img/projects/residence/8.jpg" },
+			{ "gallery_pic": "img/projects/residence/9.jpg" } 
+		]
+	},
+	{
+		"id": "5",
+		"title": "HEJC Office",
+		"seo_url": "hejc-office",
+		"company": "india",
+		"areas": "1000",
+		"duration": "50 Days",
+		"location": "Mumbai", 
+		"year": "",	
+		"categories": [
+			{ "category": "all" },
+			{ "category": "commercial" },
+			{ "category": "retail" },
+			{ "category": "residential" },
+			{ "category": "hospitality" },
+			{ "category": "architectural" }
+		],
+		"type": "commercial",
+		"works": [
+			{ "worktyp": "turnkey interior" },
+			{ "worktyp": "mep consultant" },
+			{ "worktyp": "project management" } 
+		],
+		"thumbnail": "img/projects/hejc_office/thumb.jpg", 
+		"gallery": [
+			{ "gallery_pic": "img/projects/hejc_office/1.jpg" },
+			{ "gallery_pic": "img/projects/hejc_office/2.jpg" },
+			{ "gallery_pic": "img/projects/hejc_office/3.jpg" },
+			{ "gallery_pic": "img/projects/hejc_office/4.jpg" },
+			{ "gallery_pic": "img/projects/hejc_office/5.jpg" },
+			{ "gallery_pic": "img/projects/hejc_office/6.jpg" },
+			{ "gallery_pic": "img/projects/hejc_office/7.jpg" },
+			{ "gallery_pic": "img/projects/hejc_office/8.jpg" },
+			{ "gallery_pic": "img/projects/hejc_office/9.jpg" } 
+		]
+	},
+	{
+		"id": "6",
+		"title": "Lions Club International",
+		"seo_url": "lions-club-international",
+		"company": "india",
+		"areas": "6500",
+		"duration": "50 Days",
+		"location": "Worli - Mumbai", 
+		"year": "",	
+		"categories": [
+			{ "category": "all" },
+			{ "category": "commercial" },
+			{ "category": "retail" },
+			{ "category": "residential" },
+			{ "category": "hospitality" },
+			{ "category": "architectural" }
+		],
+		"type": "commercial",
+		"works": [
+			{ "worktyp": "turnkey interior" },
+			{ "worktyp": "mep consultant" },
+			{ "worktyp": "project management" } 
+		],
+		"thumbnail": "img/projects/lions_club_international/thumb.jpg", 
+		"gallery": [
+			{ "gallery_pic": "img/projects/lions_club_international/1.jpg" },
+			{ "gallery_pic": "img/projects/lions_club_international/2.jpg" },
+			{ "gallery_pic": "img/projects/lions_club_international/3.jpg" },
+			{ "gallery_pic": "img/projects/lions_club_international/4.jpg" },
+			{ "gallery_pic": "img/projects/lions_club_international/5.jpg" },
+			{ "gallery_pic": "img/projects/lions_club_international/6.jpg" },
+			{ "gallery_pic": "img/projects/lions_club_international/7.jpg" },
+			{ "gallery_pic": "img/projects/lions_club_international/8.jpg" },
+			{ "gallery_pic": "img/projects/lions_club_international/9.jpg" } 
+		]
+	},
+	{
+		"id": "8",
+		"title": "Bungalow",
+		"seo_url": "bungalow",
+		"company": "india",
+		"areas": "6500",
+		"duration": "50 Days",
+		"location": "Worli - Mumbai", 
+		"year": "",	
+		"categories": [
+			{ "category": "all" },
+			{ "category": "commercial" },
+			{ "category": "retail" },
+			{ "category": "residential" },
+			{ "category": "hospitality" },
+			{ "category": "architectural" }
+		],
+		"type": "architectural",
+		"works": [
+			{ "worktyp": "turnkey interior" },
+			{ "worktyp": "mep consultant" },
+			{ "worktyp": "project management" } 
+		],
+		"thumbnail": "img/projects/bungalow/thumb.jpg", 
+		"gallery": [
+			{ "gallery_pic": "img/projects/bungalow/1.jpg" },
+			{ "gallery_pic": "img/projects/bungalow/2.jpg" },
+			{ "gallery_pic": "img/projects/bungalow/3.jpg" }
+		]
+	},
+	{
+		"id": "9",
+		"title": "Rajshri Media",
+		"seo_url": "rajshri_media",
+		"company": "india",
+		"areas": "10500",
+		"duration": "3 Month",
+		"location": "Worli - Mumbai", 
+		"year": "",	
+		"categories": [
+			{ "category": "all" },
+			{ "category": "commercial" },
+			{ "category": "retail" },
+			{ "category": "residential" },
+			{ "category": "hospitality" },
+			{ "category": "architectural" }
+		],
+		"type": "commercial",
+		"works": [
+			{ "worktyp": "turnkey interior" },
+			{ "worktyp": "mep consultant" },
+			{ "worktyp": "project management" } 
+		],
+		"thumbnail": "img/projects/rajshri_media/thumb.jpg", 
+		"gallery": [
+			{ "gallery_pic": "img/projects/rajshri_media/1.jpg" },
+			{ "gallery_pic": "img/projects/rajshri_media/2.jpg" },
+			{ "gallery_pic": "img/projects/rajshri_media/3.jpg" },
+			{ "gallery_pic": "img/projects/rajshri_media/4.jpg" },
+			{ "gallery_pic": "img/projects/rajshri_media/5.jpg" },
+			{ "gallery_pic": "img/projects/rajshri_media/6.jpg" },
+			{ "gallery_pic": "img/projects/rajshri_media/7.jpg" },
+			{ "gallery_pic": "img/projects/rajshri_media/8.jpg" }
+		]
+	},
+	{
+		"id": "12",
+		"title": "ULTRACELL",
+		"seo_url": "ultracell",
+		"company": "india",
+		"areas": "1000",
+		"duration": "3 Month",
+		"location": "Chembur - Mumbai", 
+		"year": "",	
+		"categories": [
+			{ "category": "all" },
+			{ "category": "commercial" },
+			{ "category": "retail" },
+			{ "category": "residential" },
+			{ "category": "hospitality" },
+			{ "category": "architectural" }
+		],
+		"type": "commercial",
+		"works": [
+			{ "worktyp": "turnkey interior" },
+			{ "worktyp": "mep consultant" },
+			{ "worktyp": "project management" } 
+		],
+		"thumbnail": "img/projects/ultracell/thumb.jpg", 
+		"gallery": [
+			{ "gallery_pic": "img/projects/ultracell/1.jpg" },
+			{ "gallery_pic": "img/projects/ultracell/2.jpg" },
+			{ "gallery_pic": "img/projects/ultracell/3.jpg" },
+			{ "gallery_pic": "img/projects/ultracell/4.jpg" },
+			{ "gallery_pic": "img/projects/ultracell/5.jpg" },
+			{ "gallery_pic": "img/projects/ultracell/6.jpg" },
+			{ "gallery_pic": "img/projects/ultracell/7.jpg" },
+			{ "gallery_pic": "img/projects/ultracell/8.jpg" },
+			{ "gallery_pic": "img/projects/ultracell/9.jpg" }
+		]
+	},
+	{
+		"id": "13",
+		"title": "Victoria Australia",
+		"seo_url": "victoria-australia",
+		"company": "india",
+		"areas": "1200",
+		"duration": "45 Days",
+		"location": "Nariman Point - Mumbai", 
+		"year": "",	
+		"categories": [
+			{ "category": "all" },
+			{ "category": "commercial" },
+			{ "category": "retail" },
+			{ "category": "residential" },
+			{ "category": "hospitality" },
+			{ "category": "architectural" }
+		],
+		"type": "commercial",
+		"works": [
+			{ "worktyp": "turnkey interior" },
+			{ "worktyp": "mep consultant" },
+			{ "worktyp": "project management" } 
+		],
+		"thumbnail": "img/projects/victoria_australia/thumb.jpg", 
+		"gallery": [
+			{ "gallery_pic": "img/projects/victoria_australia/1.jpg" },
+			{ "gallery_pic": "img/projects/victoria_australia/2.jpg" },
+			{ "gallery_pic": "img/projects/victoria_australia/3.jpg" },
+			{ "gallery_pic": "img/projects/victoria_australia/4.jpg" },
+			{ "gallery_pic": "img/projects/victoria_australia/5.jpg" },
+			{ "gallery_pic": "img/projects/victoria_australia/6.jpg" },
+			{ "gallery_pic": "img/projects/victoria_australia/7.jpg" },
+			{ "gallery_pic": "img/projects/victoria_australia/8.jpg" },
+			{ "gallery_pic": "img/projects/victoria_australia/9.jpg" }
+		]
+	},
+	{
+		"id": "15",
+		"title": "Asian Paints Limited",
+		"seo_url": "Asian-Paints-Limited",
+		"company": "india",
+		"areas": "",
+		"duration": "18 Month",
+		"location": "Pan India", 
+		"year": "",	
+		"categories": [
+			{ "category": "all" },
+			{ "category": "commercial" },
+			{ "category": "retail" },
+			{ "category": "residential" },
+			{ "category": "hospitality" },
+			{ "category": "architectural" }
+		],
+		"type": "retail",
+		"works": [
+			{ "worktyp": "turnkey interior" },
+			{ "worktyp": "mep consultant" },
+			{ "worktyp": "project management" } 
+		], 
+		"thumbnail": "img/projects/asian_paints_limited/thumb.jpg", 
+		"gallery": [
+			{ "gallery_pic": "img/projects/asian_paints_limited/1.jpg" },
+			{ "gallery_pic": "img/projects/asian_paints_limited/2.jpg" },
+			{ "gallery_pic": "img/projects/asian_paints_limited/3.jpg" },
+			{ "gallery_pic": "img/projects/asian_paints_limited/4.jpg" },
+			{ "gallery_pic": "img/projects/asian_paints_limited/5.jpg" },
+			{ "gallery_pic": "img/projects/asian_paints_limited/6.jpg" },
+			{ "gallery_pic": "img/projects/asian_paints_limited/7.jpg" },
+			{ "gallery_pic": "img/projects/asian_paints_limited/8.jpg" },
+			{ "gallery_pic": "img/projects/asian_paints_limited/9.jpg" }
+		]
+	}
+]
