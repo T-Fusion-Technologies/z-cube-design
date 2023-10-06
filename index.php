@@ -14,7 +14,7 @@ $page_head = ucwords($page_head);
 <!--[if IE 8 ]>    <html class="ie ie8 no-js" lang="en"> <![endif]-->
 <!--[if IE 9 ]>    <html class="ie ie9 no-js" lang="en"> <![endif]-->
 <!--[if gt IE 9]><!-->
-<html class="no-js" lang="en"><!--<![endif]-->
+<html class="no-js" lang="en"><!--<![endif]0 -->
 <head>
 	<title> ZCube Design - Turnkey Interior Design & Build Firm </title>
 	<?php include('header.php');?>
