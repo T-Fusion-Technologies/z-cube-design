@@ -1,5 +1,5 @@
 document.writeln("<script type='text/javascript' src='js/jquery.mixitup.min.js?ver=20151215'></script>");
-console.log('response ...');
+
   // Home Page Slider
   $.ajax({
     url: "data.json", //API URL
@@ -12,14 +12,15 @@ console.log('response ...');
     success: function(response, status)  {
       // Once our API call send success
       // this function gets called.
-      console.log(JSON.parse(response))
+      // console.log(response)
 
       $(".loadr").addClass("d-none");let html = "";
-      var project = JSON.parse(response);
+      var project = response;
       let ind = "";
       for (let i = 0; i < project.length; i++) {
+      //for (let i = 0; i < response.length; i++) {
         const { title, thumbnail, type, seo_url } = project[i];
-        console.log('thumbnail ', thumbnail);
+
         html += `<div class="item"> <div class="projects_item"> <img src="${thumbnail}" class="img-fluid d-block" /> <div class="hover"> <a href="details.php?work=${seo_url}"><i class="ion-android-arrow-forward"></i></a> <div class="project_text"> <h5>${type}</h5>  <a href="details.php?work=${seo_url}"> <h4> <span> ${title}  </span></h4> </a></div></div></div></div> `;
       }
      
@@ -70,10 +71,10 @@ console.log('response ...');
     success: function(response, status)  {
       // Once our API call send success
       // this function gets called.
-      console.log(JSON.parse(response), '');
+      // console.log(response)
 
       $(".loadr").addClass("d-none");let html = "";
-      var project = JSON.parse(response);
+      var project = response;
       let ind = "";
       for (let i = 0; i < project.length; i++) {
       //for (let i = 0; i < response.length; i++) {
@@ -144,7 +145,7 @@ console.log('response ...');
 		//alert(seo_url);
 
 		$(".projectloader").addClass("d-none");let html = "";
-		var project_data = JSON.parse(response);
+		var project_data = response;
 		for (let i = 0; i < project_data.length; i++) {
           const {id, title, company, areas, thumbnail, duration, gallery, area, location, works, type, seo_url} = project_data[i];
          
@@ -183,17 +184,17 @@ console.log('response ...');
     $("#scope_work").append(scphtml);
 
       // Fancybox Config
-      // $('[data-fancybox="gallery"]').fancybox({
-      //   buttons: [
-      //     "slideShow",
-      //     "thumbs",
-      //     "zoom",
-      //     "fullScreen",
-      //     "close"
-      //   ],
-      //     loop: false,
-      //     protect: true
-      // });
+      $('[data-fancybox="gallery"]').fancybox({
+        buttons: [
+          "slideShow",
+          "thumbs",
+          "zoom",
+          "fullScreen",
+          "close"
+        ],
+          loop: false,
+          protect: true
+      });
     },  
     error: function(error, status){// IF our API get any error
       // this function gets called.
