@@ -1,0 +1,1109 @@
+.mb-30{
+    margin-bottom: 30px;
+}
+.mb-70{
+    margin-bottom: 70px;
+}
+
+/*----------------------------------*/
+.header_menu_area .navbar.navbar-expand-lg .nav.navbar-nav li a{
+    text-transform: capitalize;
+}
+
+.header_menu_area .contact-us a{
+    color: #fff;
+}
+
+/*---------------------------------*/
+
+
+
+.owl-carousel .owl-wrapper-outer .owl-item{
+    height: 580px;
+    transition: all 0.5s;
+}
+.owl-carousel .owl-wrapper-outer .owl-item .item{
+    height: 100%;
+    overflow: hidden;
+}
+.owl-carousel .owl-wrapper-outer .owl-item .item .projects_item{
+    height: 100%;
+}
+.owl-carousel .owl-wrapper-outer .owl-item .item .projects_item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+/*--------- home page banner css ----------*/
+
+.pc_text, .sm_text{
+    text-shadow: #141414 1px 0 10px;
+    transition: all 0.5s !important;
+    padding: 10px !important;
+    border-radius: 6px;
+}
+
+.pc_text a.btn, .sm_text a.btn{
+    text-shadow: none;
+}
+
+#how_we_work .thumb{
+    position: relative;
+    transition: all 0.5s;
+}
+
+#how_we_work .thumb:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#how_we_work .thumb:hover:before{
+    opacity: 1;
+    visibility: visible;
+}
+
+#how_we_work .thumb:hover:after{
+    opacity: 1;
+    visibility: visible;
+}
+
+#how_we_work .thumb:after{
+    display: block;
+    content: "";
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top: 2px solid #f16638;
+    border-left: 2px solid #f16638;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+
+#how_we_work .thumb:before{
+    display: block;
+    content: "";
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-bottom: 2px solid #f16638;
+    border-right: 2px solid #f16638;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+
+/*----------- about us css -------------*/
+#about .about_text{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#about .about-image-wrap{
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    overflow: hidden;
+}
+
+#about .about-image-wrap figure{
+    margin: 0;
+}
+
+/*----------- services sectoin css ----------*/
+
+.services .service-wrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.services .service-wrap .icon{
+    max-width: 60px;
+    width: 100%;
+}
+
+.services .service-wrap .icon img{
+    width: 100%;
+}
+
+.services .service-wrap .content{
+    width: calc(100% - 60px);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*----------- projectsectoin css ----------*/
+
+.projects{
+    overflow: hidden;
+}
+
+.projects .entry-title{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*----------------------------------------*/
+
+.projects_item .hover i{
+    right: auto;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.projects_item:hover .hover i {
+    right: 0;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    visibility: visible;
+}
+
+.projects_item .hover{
+    left: 50%;
+    top: 50%;
+    width: 90%;
+    height: 90%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+}
+
+/*-------------- project page css ----------*/
+
+.projects_listing .portfolio-item .projects_item img{
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center center;
+}
+
+#project_data div{
+    display: none;
+}
+
+#project_data div:nth-child(-n + 9) {
+    display: block;
+}
+
+
+/*-------------- testimonal page css ----------*/
+
+#testimonials{
+    padding: 60px 0;
+}
+
+#testimonials .owl-wrapper-outer .owl-item{
+    height: auto;
+}
+
+#testimonials .single-testimonial-box-two {
+    background-color: #f8f6f3;
+    padding: 0 0 10px 0;
+    position: relative;
+    margin: 24px;
+}
+
+#testimonials .single-testimonial-box-two:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 17px;
+    left: -17px;
+    background: url(../images/testi-shape.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+#testimonials .testi-content-two {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#testimonials .testi-decs-two p {
+    padding: 25px 36px 0;
+    font-size: 17px;
+    text-align: left;
+}
+
+#testimonials .testi-thumb-two {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #8c8c8c73;
+}
+
+.testi-title{
+    text-align: left;
+}
+
+.testi-title p{
+    display: none;
+}
+
+.testi-title h4, .testi-title p{
+    margin-bottom: 0;
+}
+
+#testimonials .testi-thumb-two img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#testimonials .testi-author-rating {
+    position: absolute;
+    right: 0;
+    top: 51px;
+    background: #fff;
+    padding: 6px 28px 6px 35px;
+    border-radius: 20px 0 0 20px;
+    display: none;
+}
+
+#testimonials .testi-author-rating ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+#testimonials .testi-author-rating ul li{
+    display: inline-block;
+    line-height: 1;
+    margin-right: 5px;
+}
+
+#testimonials .testi-author-rating ul li i{
+    color: gold;
+}
+
+
+/*------------------- work with us page css -------------*/
+
+#career .thumbnail{
+    margin-top: 0;
+}
+
+#career .form-group label{
+    margin: 0;
+}
+
+
+#career .submit .btn{
+    max-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 0;
+}
+
+
+/*------------------- client page css -------------*/
+
+
+#clients .owl-item{
+    height: auto;
+}
+
+#clients .owl-item .itam-wrap{
+    text-align: center;
+}
+
+#clients .owl-item .itam-wrap figure{
+    margin: 0;
+}
+
+#clients .owl-item .item.zoom  img{
+    transform: scale(1.3);
+}
+
+
+
+
+
+/*------------- footer ------------*/
+
+.footer_logo {
+    padding-top: 0;
+}
+
+.footer-logo-link{
+    display: inline-block;
+    width: 195px;
+}
+
+footer .download-portfolio{
+    padding: 5px 15px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+ul.contact-us {
+    margin: 0;
+    padding: 0 0 0 25px;
+}
+
+ul.contact-us li{
+    list-style: none;
+    position: relative;
+}
+
+ul.contact-us li span{
+    position: absolute;
+    left: -23px;
+}
+
+ul.contact-us li a:hover{
+    color: #e7b161;
+}
+
+.site-footer__columns__column__inner a{
+    display: inline-block;
+    color: #cacaca;
+}
+
+.our-client .owl-item {
+    height: auto !important;
+}
+
+.our-client .owl-item .item{
+    height: auto !important;
+    text-align: center;
+}
+
+.our-client .owl-item figure{
+    margin: 0;
+}
+
+.our-client .owl-item img:hover{
+    filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+}
+
+.our-client .owl-item a{
+    display: inline-block;
+}
+
+
+/*------------- contact us page css ----------*/
+.contact_content h4 {
+    padding-left: 0;
+}
+.contact_content p{
+    padding-left: 0;
+}
+
+
+/*---------------- modal popup css for team page ---------------*/
+
+.modal-content .modal-header{
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+}
+
+.modal-content .modal-header button{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid;
+    z-index: 2;
+    line-height: 1;
+    color: #f16638;
+
+    span{
+        line-height: 1;
+    }
+}
+
+.modal-content .modal-header button:focus-visible, .modal-content .modal-header button:focus{
+    border: 0;
+    outline: 0;
+}
+
+.modal-content .modal-body{
+    padding: 0;
+    border-radius: 0;
+    background: rgb(255,255,255);
+    background: linear-gradient(10deg, rgba(255,255,255,1) 0%, rgba(233,233,233,0.4962359943977591) 18%, rgba(254,254,254,1) 66%, rgba(233,233,233,0.4962359943977591) 100%);
+}
+
+.modal-content .side-left .card figure{
+    margin: 0;
+}
+
+.modal-content .side-left .card img{
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.modal-content .side-left {
+    max-width: 30%;
+    width: 100%;
+}
+
+.modal-content .side-right {
+    max-width: 70%;
+    width: 100%;
+    padding: 10px 40px;
+    height: 100%;
+}
+
+.modal-content .side-right .content h6{
+    font-family: "Heebo";
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.modal-content .side-right .content p{
+    line-height: 1.4;
+}
+
+.modal-content .side-right .content .social {
+    padding: 0;
+    margin: 10px 0;
+}
+
+.modal-content .side-right .content .social li{
+    list-style: none;
+    line-height: 1;
+}
+
+.modal-content .side-right .content .social li i{
+    margin-right: 5px;
+}
+
+.modal-content .side-right .content .social li a{
+    margin: 0;
+}
+
+.modal-content .side-right .content .social li:nth-child(1){
+    margin-left: 0;
+}
+
+.modal-content .side-right a{
+    color: #f16638;
+    margin-bottom: 10px;
+}
+
+.modal-content .side-right a:hover{
+    color: #333333;
+}
+
+/*--------------------- responise media -------------------*/
+@media screen and (max-width:1600px) {
+
+    .owl-carousel .owl-wrapper-outer .owl-item {
+        height: 500px;
+    }
+
+    #about .about_text{
+        padding-left: 5%;
+    }
+}
+
+@media screen and (max-width:1400px) {
+
+    .dots{
+        width: 4%;
+    }
+
+    .owl-carousel .owl-wrapper-outer .owl-item {
+        height: 380px;
+    }
+
+    .services {
+        margin-top: 0;
+    }
+
+    .projects{
+        padding-top: 0;
+    }
+
+    /*-------------- testimonial page css ---------------------*/
+
+    #testimonials .testi-decs-two p{
+        font-size: 16px;
+    }
+
+    .testi-title p{
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width:1200px) {
+
+    .container{
+        max-width: 90%;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2.0rem;
+    }
+
+    h3 {
+        font-size: 1.40rem;
+    }
+
+    /*------- header css ------*/
+
+    .navbar-nav>li{
+        margin-left: 5px;
+    }
+
+    .navbar-nav>li a{
+        padding: 5px 3px;
+        font-size: 14px !important;
+    }
+
+    /*------- home page css -------*/
+    
+    .owl-carousel .owl-wrapper-outer .owl-item {
+        height: 300px;
+    }
+
+    .services {
+        margin-top: 0;
+        padding-bottom: 0;
+    }
+
+    /*----------- projectsectoin css ----------*/
+    .projects .entry-title{
+        max-width: 100%;
+    }
+
+    .projects .entry-title p:nth-last-child(1){
+        margin: 0;
+    }
+
+
+    /*------- inner page css -------*/
+    #project_data .projects_item{
+        height: 250px;
+    }
+    #project_data .projects_item a{
+        height: 100%;
+    }
+    #project_data .projects_item .project_img{
+        height: 100%;
+    }
+
+    .project_det .card {
+        padding: 30px 15px;
+    }
+    .project_det .card ul{
+        margin: 0;
+
+    }
+
+    /*------------- testimonial page css -----------*/
+
+    #testimonials .testi-content-two{
+        align-items: flex-start;
+    }
+    #testimonials .testi-thumb-two {
+        width: 95px;
+        height: 95px;
+    }
+
+    .testi-title{
+        padding-top: 10px;
+    }
+
+    .testi-title h4{
+        font-size: 21px;
+    }
+    .testi-title p{
+        font-size: 12px;
+    }
+    
+    #testimonials .testi-decs-two p {
+        padding: 20px 15px 0;
+        line-height: 1.6;
+    }
+
+    #testimonials .testi-author-rating{
+        top: 70px;
+        padding: 0 10px;
+    }
+    #testimonials .testi-author-rating ul{
+        padding: 5px 0;
+    }
+
+    /*------------------*/
+
+    .card-details{
+        grid-template-columns: repeat(3,minmax(0,1fr));
+        grid-row-gap: 40px;
+    }
+
+    /*------------------*/
+
+    .modal-xl {
+        max-width: 90%;
+    }
+
+    .modal-content .side-right .content .social {
+        padding: 0;
+        margin: 10px 0;
+    }
+    
+}
+
+@media (max-width:991px) {
+
+    .services {
+        margin-top: 0;
+    }
+
+    .pb-20{
+        padding-bottom: 20px;
+    }
+
+
+    /*-------------------------------------*/
+
+    .tp-resizeme .detail{
+        white-space: break-spaces;
+        width: 100%;
+    }
+
+    .pc_text {
+        width: 700px;
+    }
+
+    /* .tp-parallax-wrap + .tp-parallax-wrap{
+        top: 170px  !important;
+    }
+
+    .sm_text{
+        padding-top: 60px !important;
+    } */
+
+    .sm_text{
+        padding: 10px !important;
+        border-radius: 6px;
+    }
+
+
+    /*----------- about sectoin css ----------*/
+
+    #about .about_text{
+        margin-bottom: 40px;
+    }
+
+    #about .about-image-wrap{
+        max-width: 600px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    /*----------- services sectoin css ----------*/
+
+    .services .service-wrap{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .services .service-wrap .icon{
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .services .service-wrap .content {
+        text-align: center;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .services .service-wrap .content p{
+        padding: 0;
+    }
+
+    /*----------- how we work sectoin css ----------*/
+
+    #how_we_work{
+        padding: 60px 0;
+    }
+
+    #how_we_work .col-lg-3 {
+        margin-bottom: 15px;
+    }
+
+    /*------------- about us page css ---------------*/
+
+    .about_counter{
+        padding: 60px 0;
+    }
+
+    .about_counter h1{
+        max-width: 90%;
+        width: 100%;
+    }
+
+    #counter .thumb .counter-value{
+        font-size: 44px;
+    }
+
+    .about_counter ul li{
+        padding: 10px 5px;
+    }
+
+
+    /*------------ team page css --------------*/
+    #team .team-wrap .picture{
+        height: auto;
+    }
+
+    #team .team-wrap .picture figure{
+        margin: 0;
+    }
+
+    #team .team-wrap .picture figure img{
+        object-position: center;
+    }
+
+
+    /*------------- testimonial page css -----------*/
+
+    #testimonials .testi-author-rating {
+        top: 10px;
+    }
+
+    #testimonials .testi-decs-two p {
+        font-size: 18px;
+    }
+
+    #testimonials .testi-thumb-two {
+        width: 120px;
+        height: 120px;
+    }
+
+    .testi-title h4 {
+        font-size: 26px;
+    }
+
+
+
+    /*------------------*/
+    .modal-xl {
+        max-width: 65%;
+        margin: auto;
+    }
+
+    .card-details{
+        grid-row-gap: 40px;
+    }
+
+    /*------------------*/
+
+    .modal-content{
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    
+    .modal-content .modal-body{
+        flex-wrap: wrap;
+        padding: 10px 20px;
+    }
+
+    .modal-content .side-left {
+        max-width: 100%;
+    }
+
+    .modal-content .side-right{
+        max-width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .modal-content .side-left .card{
+        width: 150px;
+        height: 150px;
+        margin: auto;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .modal-content .side-right .content .social{
+        justify-content: center;
+    }
+
+    .modal-content .modal-header button{
+        top: 25px;
+        right: 25px;
+    }
+}
+
+@media (max-width:840px) {
+
+    /*----------- team page css ----------*/
+    .card-details{
+        grid-template-columns: repeat(2,minmax(0,1fr));
+    }
+
+}
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    /*------------------*/
+    .logo {
+        width: 175px;
+    }
+
+    #team .team-wrap {
+        padding: 20px;
+    }
+
+    /* #team .team-wrap .picture{
+        height: 190px;
+    } */
+
+    /*------------- home page --------------*/
+
+
+    .sm_text {
+        width: 490px;
+    }
+
+    .sm_text h1, .sm_text p{
+        padding-right: 5%;
+    }
+
+    .tp-resizeme h1{
+        font-size: 48px !important;
+    }
+
+    /*------------- about us page css ---------------*/
+
+    .about_counter{
+        background-size: cover;
+        background-position: center;
+    }
+
+    .about_counter ul li {
+        text-align: center;
+    }
+    
+    .about_counter .content{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .about_counter .content h1{
+        max-width: 100%;
+    }
+
+    #about .about-image-wrap{
+        max-width: 100%;
+    }
+
+    #about .about_text {
+        padding-left: 0%;
+    }
+
+    /*------------------*/
+
+    .site-footer__columns__column__inner{
+        padding-left: 25px;
+    }
+    .site-footer__columns__column__inner:before{
+        width: 20px;
+    }
+
+}
+
+@media (max-width: 580px) {
+
+
+    /*------------- testimonial page css -----------*/
+
+    #testimonials .testi-content-two{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #testimonials .single-testimonial-box-two{
+        padding: 20px 10px;
+        margin: 20px;
+    }
+
+    #testimonials .testi-thumb-two{
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .testi-title {
+        text-align: center;
+    }
+
+    #testimonials .testi-decs-two p {
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    #testimonials .testi-author-rating{
+        position: relative; 
+        width: 140px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 20px;
+        top: 0;
+    }
+    
+
+}
+
+@media (max-width: 520px) {
+    /*------------- home page --------------*/
+    .sm_text {
+        width: 375px;
+    }
+
+    .sm_text h1, .sm_text p{
+        padding-right: 5%;
+    }
+
+    .tp-resizeme h1{
+        font-size: 38px !important;
+    }
+
+
+
+    /*----------- team page css ----------*/
+
+    .card-details{
+        grid-template-columns: repeat(1,minmax(0,1fr));
+
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    /*------------- home page --------------*/
+
+    .sm_text {
+        width: 345px;
+        padding: 30px 10px !important;
+        font-size: 0 !important;
+    }
+
+    .sm_text h1, .sm_text p{
+        padding-right: 0;
+    }
+
+    .sm_text p{
+       line-height: 1.2 !important;
+    }
+
+    .tp-resizeme h1 {
+        font-size: 32px !important;
+    }
+
+    /*---------------- team page css -----------------------*/
+
+    .card-details {
+        grid-template-columns: repeat(1,minmax(0,1fr));
+    }
+
+    #team .team-wrap {
+        padding: 20px;
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    /*--------------- testimonial page css-*------------*/
+    #testimonials .single-testimonial-box-two{
+        margin: 0;
+    }
+
+    /*-------------------------*/
+
+    .modal-xl {
+        max-width: 320px;
+    }
+
+}
+
+@media (max-width: 389px) {
+    .sm_text {
+        width: 325px;
+        padding-right: 10px !important;
+    }
+}
+
+@media (max-width: 375px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    /*------------- home page --------------*/
+    
+    /* .sm_text {
+        width: 301px;
+    } */
+
+    .tp-resizeme h1 {
+        font-size: 32px !important;
+    }
+
+    .sm_text {
+        width: 75%;
+    }
+
+
+    /*---------- about sus css --------*/
+
+    #counter .thumb .counter-value {
+        font-size: 32px;
+    }
+
+    /*------------------*/
+
+    #team .team-wrap .picture figure img {
+        object-position: center;
+    }
+
+    #team .team-wrap {
+        max-width: 100%;
+    }
+
+    #team .team-wrap .picture {
+        height: 240px;
+    }
+
+
+    /*------------------*/
+
+}

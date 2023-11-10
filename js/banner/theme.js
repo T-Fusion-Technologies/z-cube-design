@@ -241,32 +241,6 @@
     }
     fillter_slider();
 
-    function testimonials_slider() {
-        if ($('.testimonials_slider').length) {
-            $('.testimonials_slider').owlCarousel({
-                loop: true,
-                margin: 30,
-                items: 1,
-                nav: true,
-                autoplay: true,
-                smartSpeed: 1500,
-                dots: true,
-                navContainerClass: 'testimonials_slider',
-                navText: ['<i class="ion-ios-arrow-left"></i>', '<i class="ion-ios-arrow-right"></i>'],
-                responsiveClass: true,
-                responsive: {
-                    0: {
-                        items: 1,
-                    },
-                    768: {
-                        items: 1,
-                    }
-                }
-            })
-        }
-    }
-    testimonials_slider();
-
     function team_slider() {
         if ($('.team_slider').length) {
             $('.team_slider').owlCarousel({

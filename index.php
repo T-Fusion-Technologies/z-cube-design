@@ -1,4 +1,4 @@
-<?php
+	<?php
 $page = basename($_SERVER['SCRIPT_NAME']);
 $page = str_replace('','',$page);
 $page = str_replace('.php','',$page);
@@ -49,17 +49,31 @@ $page_head = ucwords($page_head);
 	<section id="about">
 		<div class="dots"></div>		
 		<div class="container">		
-			<div class="row">
-				<div class="col-lg-6 col-md-12 about_text" data-scrollreveal="enter left over 1.5s">
-					<h5 class="sub_title orange"> WHO WE ARE </h1>
-					<h1> We Are Expert In Space Utilisation.  </h1>
-					<p> Z cube Design Pvt. Ltd. is a Turnkey Interior Design & Build firm based in Mumbai. We work with a single minded goal – to create aesthetics spaces that are a joy to live & work in ergonomically. And we do this, by establishing a precise collaboration between design team, execution team and the client. Z cube Design are team of Artisans. Designers. Architects. Interior designers. <br />
-					Project management consultants, Planners. Strategists. Experience designers. We are Innovators. Ideators. Creators. Happy to solve on-site problems. And with every project, every client, we seek results. Results that support the Hallmark of our Firm that Is On-Time Completion of Projects.</p>
-					<br />
-					<a href="#" class="btn btn-theme"> Continue Reading <img src="img/icon/arrow-right.svg" class="img-fluid" /> </a>
+			<div class="row align-items-center">
+				<div class="col-12 col-lg-6" data-scrollreveal="enter left over 1.5s">
+					<div class="content about_text">
+						<h5 class="sub_title orange"> WHO WE ARE </h1>
+						<h1> We Are Expert In Space Utilisation.  </h1>
+						<p class="d-none"> Z cube Design Pvt. Ltd. is a Turnkey Interior Design & Build firm based in Mumbai. We work with a single minded goal – to create aesthetics spaces that are a joy to live & work in ergonomically. And we do this, by establishing a precise collaboration between design team, execution team and the client. Z cube Design are team of Artisans. Designers. Architects. Interior designers. <br />
+							Project management consultants, Planners. Strategists. Experience designers. We are Innovators. Ideators. Creators. Happy to solve on-site problems. And with every project, every client, we seek results. Results that support the Hallmark of our Firm that Is On-Time Completion of Projects.</p>
+						<br />
+						<p>
+							Z Cube Design Pvt Ltd, a prominent Mumbai-based turnkey Interior Design & Build firm, excels in the art of space utilization. 
+							Our expertise lies in transforming spaces into functional, aesthetically pleasing environments. With a dedicated team of professionals, 
+							we cater to diverse projects, whether residential, commercial, or hospitality. Our turnkey solutions encompass the entire project, from initial 
+							concept to final execution, ensuring a seamless experience. We take pride in our ability to harmonize form and function, creating spaces that 
+							inspire and elevate lifestyles. At Z Cube Design, we're committed to making your interior design dreams a reality while optimizing every inch 
+							of your space.
+						</p>
+						<a href="/hello/about-us.php" class="btn btn-theme"> Continue Reading <img src="img/icon/arrow-right.svg" class="img-fluid" /> </a>
+					</div>
 				</div>
-				<div class="col-lg-5 col-md-5 about_img">
-					<img src="img/about.jpg" class="img-fluid" /> 
+				<div class="col-12 col-lg-6">
+					<div class="about-image-wrap">
+						<figure>
+							<img src="./assets/images/collarge-images/home-about-us.png" class="img-fluid" />
+						</figure>
+					</div> 
 				</div>
 			</div>	
 		</div>	
@@ -69,38 +83,58 @@ $page_head = ucwords($page_head);
 		<div class="container">	
 			<div class="row justify-content-md-center">
 				<div class="col-lg-4 col-md-4 col-sm-4" data-scrollreveal="enter bottom over 1.5s">
-					<div> <img src="img/icon/price.png" class="img-fluid d-block" alt="" /> </div>
-					<div>
-						<h4> Reasonable Prices </h4>
-						<p> We produce furniture to fulfill needs of all people and offer it at affordable and fair prices.</p>
+					<div class="service-wrap">
+						<div class="icon"> 
+							<img src="img/icon/price.png" class="img-fluid d-block" alt="" /> 
+						</div>
+						<div class="content">
+							<h4> Reasonable Prices </h4>
+							<p> "Exceptional interior design at affordable prices – style within your reach."</p>
+						</div>
 					</div>
 				</div> 
 				<div class="col-lg-4 col-md-4 col-sm-4" data-scrollreveal="enter bottom over 1.5s">
-					<div> <img src="img/icon/design.png" class="img-fluid d-block" alt="" /> </div>
-					<div>
-						<h4> Exclusive Design </h4>
-						<p> We produce furniture to fulfill needs of all people and offer it at affordable and fair prices.</p>
+					<div class="service-wrap">
+						<div class="icon"> 
+							<img src="img/icon/design.png" class="img-fluid d-block" alt="" /> 
+						</div>
+						<div  class="content">
+							<h4> Exclusive Design </h4>
+							<p>"Crafting exclusive interiors tailored to your distinct vision and lifestyle."</p>
+						</div>
 					</div>
+					
 				</div> 
 				<div class="col-lg-4 col-md-4 col-sm-4" data-scrollreveal="enter bottom over 1.5s">
-					<div> <img src="img/icon/team.png" class="img-fluid d-block" alt="" /> </div> 
-					<div>
-						<h4> Professional Team </h4>
-						<p> We produce furniture to fulfill needs of all people and offer it at affordable and fair prices.</p>
+					<div class="service-wrap">
+						<div class="icon"> 
+							<img src="img/icon/team.png" class="img-fluid d-block" alt="" /> 
+						</div> 
+						<div  class="content">
+							<h4> Professional Team </h4>
+							<p> "Our skilled team ensures impeccable design and execution for every project."</p>
+						</div>
 					</div>
+					
 				</div> 
 			</div>
 		</div> 
 	</section>
 
- 
 	<section class="projects"> 
+
+		<div class="container">
+			<div class="entry-title w-60" data-scrollreveal="enter bottom over 1.5s">
+				<h1> Featured Projects</h1>
+				<p> "Explore our showcase of featured interior design projects. From elegant living rooms to modern kitchens and luxurious bedrooms, 
+					our portfolio demonstrates our versatility and commitment to crafting unique spaces. Immerse yourself in a world of design inspiration 
+					and discover what we can create for your home. Browse now."
+				</p>
+			</div>
+		</div>
+
 		<div class="container-fluid">
 			<div class="row justify-content-md-center">
-				<div class="col-lg-7 col-md-7 text-center" data-scrollreveal="enter bottom over 1.5s">
-					<h1> Featured Projects  <span> </span> </h1>
-					<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-				</div>
 				<div class="col-lg-12" data-scrollreveal="enter top over 1.5s">
 					<div class="owl-carousel" id="owlroot"> 
 					<!--
@@ -182,36 +216,283 @@ $page_head = ucwords($page_head);
 			</div>
 		</div>
 	</section>
+
+	<section class="our-client">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12" data-scrollreveal="enter top over 1.5s">
+					<div class="contain">
+						<div id="our-client-slide" class="owl-carousel owl-theme">
+							<div class="item">
+								<a href="#" class="asianpaint">
+									<figure>
+										<img src="./assets/images/client-logo/logo-1.png" alt="">
+									</figure>
+								</a>
+							</div>
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-2.png" alt="">
+									</figure>
+								</a>
+							</div>
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-3.png" alt="">
+									</figure>
+								</a>
+							</div>
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-4.png" alt="">
+									</figure>
+								</a>
+							</div>
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-5.png" alt="">
+									</figure>
+								</a>
+							</div>
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-6.png" alt="">
+									</figure>
+								</a>
+							</div>
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-7.png" alt="">
+									</figure>
+								</a>
+							</div>
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-8.png" alt="">
+									</figure>
+								</a>
+							</div>
+
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-9.png" alt="">
+									</figure>
+								</a>
+							</div>
+
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-10.png" alt="">
+									</figure>
+								</a>
+							</div>
+
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-11.png" alt="">
+									</figure>
+								</a>
+							</div>
+
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-12.png" alt="">
+									</figure>
+								</a>
+							</div>
+
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-13.png" alt="">
+									</figure>
+								</a>
+							</div>
+
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-14.png" alt="">
+									</figure>
+								</a>
+							</div>
+
+
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-15.png" alt="">
+									</figure>
+								</a>
+							</div>
+
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-16.png" alt="">
+									</figure>
+								</a>
+							</div>
+
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-17.png" alt="">
+									</figure>
+								</a>
+							</div>
+
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-18.png" alt="">
+									</figure>
+								</a>
+							</div>
+
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-19.png" alt="">
+									</figure>
+								</a>
+							</div>
+
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-20.png" alt="">
+									</figure>
+								</a>
+							</div>
+
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-21.png" alt="">
+									</figure>
+								</a>
+							</div>
+
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-22.png" alt="">
+									</figure>
+								</a>
+							</div>
+							
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-23.png" alt="">
+									</figure>
+								</a>
+							</div>
+
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-24.png" alt="">
+									</figure>
+								</a>
+							</div>
+
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-25.png" alt="">
+									</figure>
+								</a>
+							</div>
+
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-26.png" alt="">
+									</figure>
+								</a>
+							</div>
+
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-27.png" alt="">
+									</figure>
+								</a>
+							</div>
+
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-28.png" alt="">
+									</figure>
+								</a>
+							</div>
+
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-29.png" alt="">
+									</figure>
+								</a>
+							</div>
+
+							<div class="item">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-30.png" alt="">
+									</figure>
+								</a>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	
 	<section id="how_we_work">
 		<div class="dots"></div>		
 		<div class="container">		
 			<div class="row justify-content-md-center">
-				<div class="col-lg-3 col-md-3" data-scrollreveal="enter left over 1.5s">
+				<div class="col-12 col-lg-3" data-scrollreveal="enter left over 1.5s">
 					<h5 class="sub_title orange"> HOW WE WORK </h1>
 					<h1> 3 Easy steps to get interior design </h1>
-					
-					<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p> 
+					<p> "Discover our process: Consult, Design, Transform. Your dream interior awaits!"</p> 
 				</div> 
-				<div class="col-lg-3 col-md-3">
+				<div class="col-12 col-lg-3 col-md-4">
 					<div class="thumb"> 
 						<h1> 01 </h1>
-						<h3> We Visit <br /> You At Home </h3>
-						<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p> 
+						<h3> Consultation </h3>
+						<p> "Unlock your dream space with a tailored interior design consultation."</p> 
 					</div> 
 				</div> 
-				<div class="col-lg-3 col-md-3">
+				<div class="col-12 col-lg-3 col-md-4">
 					<div class="thumb"> 
 						<h1> 02 </h1>
-						<h3> We Visit <br /> You At Home </h3>
-						<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p> 
+						<h3> Design & Planning </h3>
+						<p> Watch your ideas come to life with our professional designs.</p> 
 					</div> 
 				</div> 
-				<div class="col-lg-3 col-md-3">
+				<div class="col-12 col-lg-3 col-md-4">
 					<div class="thumb"> 
 						<h1> 03 </h1>
-						<h3> We Visit <br /> You At Home </h3>
-						<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p> 
+						<h3> Execution </h3>
+						<p> Sit back as we bring your dream interior to reality. Start today!"</p> 
 					</div> 
 				</div> 
 			</div>	
@@ -222,13 +503,16 @@ $page_head = ucwords($page_head);
 		<div class="dots"></div>		
 		<div class="container">		
 			<div class="row justify-content-md-center">
-				<div class="col-lg-6 col-md-7 text-center" data-scrollreveal="enter left over 1.5s">
+				<div class="col-12 col-lg-8 text-center" data-scrollreveal="enter left over 1.5s">
 					<h5 class="sub_title orange"> YOU DREAM IT, WE DESIGN IT</h1>
 					<h1> We can build you the kitchen of your dreams  </h1>
 					<br />
-					<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+					<p>
+						"Turn your dream kitchen into a reality with us! Our expert team is ready to create the perfect kitchen space tailored to your style and needs. 
+						From design to installation, we're here to make your culinary dreams come true. Let's build the kitchen you've always wanted."
+					</p>
 					<br />
-					<a href="/contact-us.php" class="btn btn-theme"> SCHEDULE A CHAT <img src="img/icon/arrow-right.svg" class="img-fluid" /> </a>
+					<a href="/hello/contact-us.php" class="btn btn-theme"> SCHEDULE A CHAT <img src="img/icon/arrow-right.svg" class="img-fluid" /> </a>
 				</div> 
 			</div>	
 		</div>	

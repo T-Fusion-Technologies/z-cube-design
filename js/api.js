@@ -19,15 +19,26 @@ document.writeln("<script type='text/javascript' src='js/jquery.mixitup.min.js?v
       let ind = "";
       for (let i = 0; i < project.length; i++) {
       //for (let i = 0; i < response.length; i++) {
-        const { title, thumbnail, type, seo_url } = project[i];
+        const { title, thumbnail, type, seo_url} = project[i];
 
-        html += `<div class="item"> <div class="projects_item"> <img src="${thumbnail}" class="img-fluid d-block" /> <div class="hover"> <a href="details.php?work=${seo_url}"><i class="ion-android-arrow-forward"></i></a> <div class="project_text"> <h5>${type}</h5>  <a href="details.php?work=${seo_url}"> <h4> <span> ${title}  </span></h4> </a></div></div></div></div> `;
+        html += `
+        <div class="item">
+          <div class="projects_item">
+            <img src="${thumbnail}" class="img-fluid d-block">
+            <div class="hover"><a href="details.php?work=${seo_url}"><i class="ion-android-arrow-forward"></i></a>
+              <div class="project_text">
+                <h5>${type}</h5><a href="details.php?work=${seo_url}"><h4><span>${title}</span></h4></a></div>
+            </div>
+          </div>
+        </div>
+        `;
       }
      
       $("#owlroot").append(html);
 
   		//Helper Filtering Data
       $(document).ready(function () {
+
         var owl = $("#owlroot");
         owl.owlCarousel({
             autoPlay: 3000,
@@ -47,6 +58,38 @@ document.writeln("<script type='text/javascript' src='js/jquery.mixitup.min.js?v
         $(".prev").click(function () {
             owl.trigger('owl.prev');
         })
+
+        $('#our-client-slide').owlCarousel({
+            autoPlay: 3100,
+            items: 4,
+            pagination: false,
+            stopOnHover: true,
+            navigation: false,
+            itemsDesktop: [1280, 4],
+            itemsDesktopSmall: [979, 3],
+            itemsTablet: [600, 3], //3 items between 600 and 0
+            itemsMobile: [480, 1], // itemsMobile disabled - inherit from itemsTablet option	
+        })
+
+        $('.testimonial-slidere').slick({
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            arrows: false,
+            dost: true,
+            responsive: [
+              {
+                breakpoint: 991,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1
+                }
+              }
+            ]
+        });
+
+        $('#work_tab li:first').addClass('active');
+        $('.works .row div:eq(0)').show();
     }); 
 
     },
@@ -58,7 +101,6 @@ document.writeln("<script type='text/javascript' src='js/jquery.mixitup.min.js?v
 });
 
  
-
   // Project Page
   $.ajax({
     url: "data.json", //API URL
@@ -69,6 +111,7 @@ document.writeln("<script type='text/javascript' src='js/jquery.mixitup.min.js?v
       $(".loadr").removeClass("d-none");
     },
     success: function(response, status)  {
+      console.log('response ', response);
       // Once our API call send success
       // this function gets called.
       // console.log(response)
@@ -78,25 +121,41 @@ document.writeln("<script type='text/javascript' src='js/jquery.mixitup.min.js?v
       let ind = "";
       for (let i = 0; i < project.length; i++) {
       //for (let i = 0; i < response.length; i++) {
-        const { id, title, thumbnail, categories, type, seo_url } = project[i];
+        const { id, title, thumbnail, categories, type, seo_url, sub_title } = project[i];
 
         // Cast Data Fetch        
         var workdata = "";
         for (let e = 0; e < categories.length; e++) {
             var category = categories[e].category;
             //console.log(categories);
-            workdata += `<li class="filter ${ i == 0 ? 'active' : ''}" data-filter=".${category}"> <span></span>${category}</li>`;
+            workdata += `<li class="filter ${ e == 0 ? 'active' : ''}" data-filter=".${category}"> <span></span>${category}</li>`;
         }
 
-        html += `<div class="portfolio-item col-lg-4 col-sm-4 ${type} all"> <div class="projects_item"> <a href="details.php?work=${seo_url}"> <img src="${thumbnail}" class="img-fluid d-block w-100" alt="${title}" /> <div class="hover"> <i class="ion-android-arrow-forward"></i><div class="project_text"> <h5>${type}</h5>  <h4> ${title} </h4> </div> </div></div> </a>  </div>
+        html += `
+        <div class="portfolio-item col-lg-4 col-sm-4 ${type} all">
+          <div class="projects_item">
+            <a href="details.php?work=${seo_url}"><img src="${thumbnail}" class="img-fluid d-block w-100" alt="${title}">
+              <div class="hover"><i class="ion-android-arrow-forward"></i>
+                <div class="project_text">
+                  <span>${sub_title}</span>
+                  <h5>${type}</h5>
+                  <h4>${title}</h4></div>
+              </div>
+            </a>
+          </div>
+        </div>
         `;
       }
      
       $("#project_list").append(html);
+      setTimeout(function() {
+        $(".work_tab li:first").addClass('active')
+      }, 1000);
       $("#work_tab").append(workdata);
 
   		//Helper Filtering Data
       jQuery(document).ready(function ($) {
+        
   			$(function () {
   				var filterList = {
   					init: function () {
@@ -113,6 +172,7 @@ document.writeln("<script type='text/javascript' src='js/jquery.mixitup.min.js?v
   				}; 
   				filterList.init();
   			});
+
   		}); // Main document ready END
 
     },
@@ -123,8 +183,6 @@ document.writeln("<script type='text/javascript' src='js/jquery.mixitup.min.js?v
     },
 });
 
-  
-  
 // Projects Details
   $.ajax({
     url: "data.json", //API URL
@@ -162,7 +220,7 @@ document.writeln("<script type='text/javascript' src='js/jquery.mixitup.min.js?v
         } // End ForLoop
 
         for (let e = 0; e < 1; e++) {
-            dethtml += `<div class="col-lg-12"><article class="row" id="project_det"></article></div> <h3>${title}</h3> <hr />  <p> Company Origin : ${company} <br /> Areas : ${areas} Sq. Ft. <br /> Duration : ${duration} days <br /> Location : ${location} </p><h5> Scope Of Work : </h5> <ul id="scope_work"></ul>`;
+            dethtml += `<div class="col-lg-12"><article class="row" id="project_det"></article></div> <h3>${title}</h3> <hr />  <p> Company Origin : ${company} <br /> Areas : ${areas} Sq. Ft. <br /> Duration : ${duration} <br /> Location : ${location} </p><h5> Scope Of Work : </h5> <ul id="scope_work"></ul>`;
             
             for (let e = 0; e < works.length; e++) {
                 var worktyp = works[e].worktyp;

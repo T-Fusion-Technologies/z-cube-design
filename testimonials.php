@@ -25,6 +25,7 @@ $page_head = ucwords($page_head);
 
 </head>
 <body>
+
 	<div class="inner_banner" style="background:url(img/innerbanner/contact.jpg) no-repeat">
 		<div class="container">		
 			<div class="row">
@@ -36,6 +37,7 @@ $page_head = ucwords($page_head);
 		</div>
 		<img src="img/innerbanner/contact.jpg" class="img-fluid" />
 	</div>
+
 	<div id="breadcrumb">
 		<div class="container">
 			<div class="row">
@@ -48,42 +50,158 @@ $page_head = ucwords($page_head);
 			</div>
 		</div>
 	</div>
-	
+
+	<section class="testimonial" id="testimonials">
+		<div class="container">
+
+			<div class="main_title white text-center">
+				<h2><span class="orange">Testimonials</span></h2>
+			</div>
+
+			<div class="row">
+				<div class="col-12">
+					<div class="slider testimonial-slidere">
+
+						<div class="single-testimonial-box-two">
+							<div class="testi-content-two">
+								<div class="testi-thumb-two">
+								<img src="./assets/images/team-photo/hashim-Hebsur.jpg" alt="">
+								</div>
+								<div class="testi-title">
+									<h4>Hashim Hebsur</h4>
+									<p>ASSOCIATE DIRECTOR ( MEP )</p>
+								</div>
+							</div>
+							<div class="testi-decs-two">
+								<p>A wonderful serenity has taken possession my entire soul these in
+								royella consectetur royella dos eiusmod tempor incisdunt resorts
+								sweet wonderful serenity has taken possession my entire soul
+								royella consectetur royella dos eiusmod.</p>
+							</div>
+							<div class="testi-author-rating">
+								<ul>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								</ul>
+							</div>
+						</div>
+
+						<!----------------------------------->
+
+						<div class="single-testimonial-box-two">
+							<div class="testi-content-two">
+								<div class="testi-thumb-two">
+								<img src="./assets/images/team-photo/hashim-Hebsur.jpg" alt="">
+								</div>
+								<div class="testi-title">
+									<h4>Hashim Hebsur</h4>
+									<p>ASSOCIATE DIRECTOR ( MEP )</p>
+								</div>
+							</div>
+							<div class="testi-decs-two">
+								<p>A wonderful serenity has taken possession my entire soul these in
+								royella consectetur royella dos eiusmod tempor incisdunt resorts
+								sweet wonderful serenity has taken possession my entire soul
+								royella consectetur royella dos eiusmod.</p>
+							</div>
+							<div class="testi-author-rating">
+								<ul>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								</ul>
+							</div>
+						</div>
+
+						<!----------------------------------->
+
+						<div class="single-testimonial-box-two">
+							<div class="testi-content-two">
+								<div class="testi-thumb-two">
+								<img src="./assets/images/team-photo/saharukh.jpg" alt="">
+								</div>
+								<div class="testi-title">
+									<h4>Sharuk Patel</h4>
+									<p>ASSOCIATE DIRECTOR ( MEP )</p>
+								</div>
+							</div>
+							<div class="testi-decs-two">
+								<p>A wonderful serenity has taken possession my entire soul these in
+								royella consectetur royella dos eiusmod tempor incisdunt resorts
+								sweet wonderful serenity has taken possession my entire soul
+								royella consectetur royella dos eiusmod.</p>
+							</div>
+							<div class="testi-author-rating">
+								<ul>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								</ul>
+							</div>
+						</div>
+
+						<!----------------------------------->
+
+						<div class="single-testimonial-box-two">
+							<div class="testi-content-two">
+								<div class="testi-thumb-two">
+								<img src="./assets/images/team-photo/poonam.jpg" alt="">
+								</div>
+								<div class="testi-title">
+									<h4>Poonam Gupta</h4>
+									<p>ASSOCIATE DIRECTOR ( MEP )</p>
+								</div>
+							</div>
+							<div class="testi-decs-two">
+								<p>A wonderful serenity has taken possession my entire soul these in
+								royella consectetur royella dos eiusmod tempor incisdunt resorts
+								sweet wonderful serenity has taken possession my entire soul
+								royella consectetur royella dos eiusmod.</p>
+							</div>
+							<div class="testi-author-rating">
+								<ul>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+									<li><i class="fa fa-star" aria-hidden="true"></i></li>
+								</ul>
+							</div>
+						</div>
+
+						<!----------------------------------->
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<!-- 	
 	<section class="clients_area white_cl projects_listing" id="testimonials">
 		<div class="container">
 			<div class="row justify-content-md-center">
-				<div class="col-lg-10" data-scrollreveal="enter bottom over 1.5s">
-					<div class="main_title white">
-						<h2>+2,500 Happy <span class="orange">clients</span></h2>
+				<div class="col-12" data-scrollreveal="enter bottom over 1.5s">
+					<div class="main_title white text-center">
+						<h2>Our <span class="orange">clients</span></h2>
 					</div>
-					<div class="testimonials_slider owl-carousel text-center">
-						<div class="item">
-							<div class="test_item">
-								<img src="img/user.png" class="img-fluid"  />
-								<h4> <span>Dhritiman Salim</span> </h4>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-							</div>
-						</div>
-						<div class="item">
-							<div class="test_item">
-								<img src="img/user.png" class="img-fluid"  />
-								<h4> <span>Alagesan Poduri</span>  </h4>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-							</div>
-						</div>
-						<div class="item">
-							<div class="test_item">
-								<img src="img/user.png" class="img-fluid"  />
-								<h4> <span>Aditi Musunur</span>  </h4>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-							</div>
-						</div>
+					<div class="testimonials_sliderr owl-carousel text-center">
+
+						
+
 					</div>
 				</div>
 			</div>			
 		</div>
 	</section>
-	
+	 -->
 	
 <?php include('footer.php');?>
  

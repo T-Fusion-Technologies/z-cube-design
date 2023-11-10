@@ -60,25 +60,32 @@ $page_head = ucwords($page_head);
 				</div>
 			</div>
 			<div class="row contact_content">
+				<!-- <div class="col-12  mb-70">
+					
+				</div> -->
 				<div class="col-md-5 col-sm-5 contact_form" data-scrollreveal="enter left over 1.5s">
-					<h4 class="col-md-12"> Get In Touch </h4>
-					<p class="col-md-12 text-justify"> Please fill out the information below. Alternatively, you may call or send us an email using our contact details. <br />
-					Asterisks (*) indicate fields to complete this transaction. </p>
 					<?php include('quick_inquiry.php');?>
 				</div>
 				<div class="col-md-1 col-sm-1"></div>
 				<div class="col-md-6 col-sm-6" data-scrollreveal="enter right over 1.5s">
+					<h4 class="col-md-12"> Get In Touch </h4>
+					<p class="col-md-12 text-justify"> Please fill out the information below. Alternatively, you may call or send us an email using our contact details. <br />
+					Asterisks (*) indicate fields to complete this transaction. </p>
+
 					<h5> Office : </h5>
 					<p> Office No - 13, B-Wing, New Sangam Society <br /> Juhu Versova Link Road, Andheri (WEST) <br /> Mumbai-400053 (Maharastra) </p>
-					</p> 
-					<p> <strong> Email :</strong> <a href="mailto:info@zcubedesign.com" class="golden"> info@zcubedesign.com </a> <br />				
-					  <strong> Contact :</strong> <a href="tel:02226391313" class="golden"> 022 - 26391313 </a> /<a href="tel:02226392323" class="golden"> 2323 </a> </p>
-
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3769.7162971308317!2d72.827491!3d19.120098!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9250c21b0dbf2ce0!2sZ%20Cube%20Design%20Private%20Limited!5e0!3m2!1sen!2sin!4v1662489006325!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<p> 
+						<strong> Email :</strong> <a href="mailto:info@zcubedesign.com" class="golden"> info@zcubedesign.com </a> <br />				
+					  	<strong> Contact :</strong> <a href="tel:02226391313" class="golden"> 022 - 26391313 </a> /<a href="tel:02226392323" class="golden"> 2323 </a> 
+					</p>
 				</div>
 			</div> <!-- Row -->
 		</div> <!-- Container -->		
 	</section> <!--  -->
+
+	<section class="location-map p-0">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3769.7162971308317!2d72.827491!3d19.120098!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9250c21b0dbf2ce0!2sZ%20Cube%20Design%20Private%20Limited!5e0!3m2!1sen!2sin!4v1662489006325!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</section>
 	
 	
 <?php include('footer.php');?>

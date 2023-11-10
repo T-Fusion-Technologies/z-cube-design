@@ -51,180 +51,56 @@ $page_head = ucwords($page_head);
 	
 	<section class="" id="clients"> 	
 		<div class="container">
-  
 			<div class="row justify-content-md-center">
-				<div class="col-lg-11">
-					<div class="row justify-content-md-center">
-						<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-							<div class="card">
-								<a class="d-block" href="#">
-									<img src="img/clients/client-hover-img-1.png" class="img-fluid d-block" /> 
+
+
+				<div class="col-12 col-lg-4">
+					<div class="title">
+						<h2>Our Clients</h2>
+					</div>
+					<div class="content">
+						<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+					</div>
+				</div>
+
+				<div class="col-12 col-lg-8">
+					<div id="our-client-slide" class="owl-carousel owl-theme">
+						<div class="item">
+							<div class="itam-wrap">
+								<a href="#" class="asianpaint">
+									<figure>
+										<img src="./assets/images/client-logo/logo-1.png" alt="">
+									</figure>
+								</a>
+								<a href="#" class="asianpaint">
+									<figure>
+										<img src="./assets/images/client-logo/logo-1.png" alt="">
+									</figure>
 								</a>
 							</div>
-						</div> <!-- --> 
-						<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-							<div class="card">
-								<a class="d-block" href="#">
-									<img src="img/clients/client-hover-img-2.png" class="img-fluid d-block" /> 
+						</div>
+						<div class="item zoom">
+							<div class="itam-wrap">
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-2.png" alt="">
+									</figure>
+								</a>
+								<a href="#">
+									<figure>
+										<img src="./assets/images/client-logo/logo-2.png" alt="">
+									</figure>
 								</a>
 							</div>
-						</div> <!-- --> 
-						<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-							<div class="card">
-								<a class="d-block" href="#">
-									<img src="img/clients/client-hover-img-3.png" class="img-fluid d-block" /> 
-								</a>
-							</div>
-						</div> <!-- --> 
-						<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-							<div class="card">
-								<a class="d-block" href="#">
-									<img src="img/clients/client-hover-img-4.png" class="img-fluid d-block" /> 
-								</a>
-							</div>
-						</div> <!-- --> 
-						<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-							<div class="card">
-								<a class="d-block" href="#">
-									<img src="img/clients/client-hover-img-5.png" class="img-fluid d-block" /> 
-								</a>
-							</div>
-						</div> <!-- --> 
-						<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-							<div class="card">
-								<a class="d-block" href="#">
-									<img src="img/clients/client-hover-img-6.png" class="img-fluid d-block" /> 
-								</a>
-							</div>
-						</div> <!-- --> 
-						<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-							<div class="card">
-								<a class="d-block" href="#">
-									<img src="img/clients/client-hover-img-1.png" class="img-fluid d-block" /> 
-								</a>
-							</div>
-						</div> <!-- -->  
-						<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-							<div class="card">
-								<a class="d-block" href="#">
-									<img src="img/clients/client-hover-img-5.png" class="img-fluid d-block" /> 
-								</a>
-							</div>
-						</div> <!-- --> 
-						<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-							<div class="card">
-								<a class="d-block" href="#">
-									<img src="img/clients/client-hover-img-6.png" class="img-fluid d-block" /> 
-								</a>
-							</div>
-						</div> <!-- --> 
-						<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-							<div class="card">
-								<a class="d-block" href="#">
-									<img src="img/clients/client-hover-img-2.png" class="img-fluid d-block" /> 
-								</a>
-							</div>
-						</div> <!-- --> 
-						<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-							<div class="card">
-								<a class="d-block" href="#">
-									<img src="img/clients/client-hover-img-4.png" class="img-fluid d-block" /> 
-								</a>
-							</div>
-						</div> <!-- --> 
-						<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-							<div class="card">
-								<a class="d-block" href="#">
-									<img src="img/clients/client-hover-img-3.png" class="img-fluid d-block" /> 
-								</a>
-							</div>
-						</div> <!-- -->
-						<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-							<div class="card">
-								<a class="d-block" href="#">
-									<img src="img/clients/client-hover-img-3.png" class="img-fluid d-block" /> 
-								</a>
-							</div>
-						</div> <!-- --> 
-						<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-							<div class="card">
-								<a class="d-block" href="#">
-									<img src="img/clients/client-hover-img-5.png" class="img-fluid d-block" /> 
-								</a>
-							</div>
-						</div> <!-- --> 
-						<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-							<div class="card">
-								<a class="d-block" href="#">
-									<img src="img/clients/client-hover-img-6.png" class="img-fluid d-block" /> 
-								</a>
-							</div>
-						</div> <!-- --> 
-						<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-							<div class="card">
-								<a class="d-block" href="#">
-									<img src="img/clients/client-hover-img-1.png" class="img-fluid d-block" /> 
-								</a>
-							</div>
-						</div> <!-- --> 
-						<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-							<div class="card">
-								<a class="d-block" href="#">
-									<img src="img/clients/client-hover-img-2.png" class="img-fluid d-block" /> 
-								</a>
-							</div>
-						</div> <!-- --> 
-						<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-							<div class="card">
-								<a class="d-block" href="#">
-									<img src="img/clients/client-hover-img-3.png" class="img-fluid d-block" /> 
-								</a>
-							</div>
-						</div> <!-- --> 
-						<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-							<div class="card">
-								<a class="d-block" href="#">
-									<img src="img/clients/client-hover-img-4.png" class="img-fluid d-block" /> 
-								</a>
-							</div>
-						</div> <!-- --> 
-						<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-							<div class="card">
-								<a class="d-block" href="#">
-									<img src="img/clients/client-hover-img-5.png" class="img-fluid d-block" /> 
-								</a>
-							</div>
-						</div> <!-- --> 
-						<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-							<div class="card">
-								<a class="d-block" href="#">
-									<img src="img/clients/client-hover-img-1.png" class="img-fluid d-block" /> 
-								</a>
-							</div>
-						</div> <!-- --> 
-						<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-							<div class="card">
-								<a class="d-block" href="#">
-									<img src="img/clients/client-hover-img-2.png" class="img-fluid d-block" /> 
-								</a>
-							</div>
-						</div> <!-- --> 
-						<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-							<div class="card">
-								<a class="d-block" href="#">
-									<img src="img/clients/client-hover-img-4.png" class="img-fluid d-block" /> 
-								</a>
-							</div>
-						</div> <!-- --> 
-						<div class="col-xl-2 col-lg-3 col-md-3 col-sm-4">
-							<div class="card">
-								<a class="d-block" href="#">
-									<img src="img/clients/client-hover-img-6.png" class="img-fluid d-block" /> 
-								</a>
-							</div>
-						</div> <!-- --> 
-					</div>  
-				</div>  
+						</div>
+						
+					</div>
+				</div>
+
+
+
+				
 			</div>  
 		</div> <!-- Container -->		
 	</section> <!--  -->

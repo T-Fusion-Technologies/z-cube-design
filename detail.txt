@@ -1,0 +1,48 @@
+#f16638
+
+
+/*---------------------- 31-10-23 ------------------------------*/
+
+z-cube 
+logo for clients 
+>> done
+
+HOW WE WORK
+>> corner border logo colour 2 px 
+>> done.
+
+project page 
+add active class 
+not get add
+
+proeject details page on hover reduce size for overlay 
+>> done
+	
+comment more then 9 pictures
+>> done
+
+client page design
+
+
+
+
+/*---------------------- 11-6-23------------------*/
+
+project page 
+>> backgorund graphic 
+remove unwanted things
+
+remove social links
+same on popup
+homepage - logos in color 
+
+
+Asian Paints 
+Beautiful Homes
+NASHIK
+
+
+DEH Kolkata - Dr. Aggaral Eye Hospital - Kolkata
+Wework - Mumbai
+
+Add all location

@@ -25,6 +25,7 @@ $page_head = ucwords($page_head);
 
 </head>
 <body>
+
 	<div class="inner_banner" style="background:url(img/innerbanner/contact.jpg) no-repeat">
 		<div class="container">		
 			<div class="row">
@@ -36,6 +37,7 @@ $page_head = ucwords($page_head);
 		</div>
 		<img src="img/innerbanner/contact.jpg" class="img-fluid" />
 	</div>
+
 	<div id="breadcrumb">
 		<div class="container">
 			<div class="row">
@@ -51,7 +53,92 @@ $page_head = ucwords($page_head);
 	
 	<section class="" id="team"> 	
 		<div class="container">
-  
+
+			<div class="entry-title">
+				<h2>"Your Interior Design Dream Team"</h2>
+				<p>
+					At Z Cube Design, we take immense pride in the dedicated and talented individuals who make up our dynamic team. Each member 
+					of our team brings a unique set of skills, a passion for creativity, and a commitment to excellence in the field of interior design. 
+					Allow us to introduce you to the faces behind our inspiring projects:
+					Our team's collective passion is to create spaces that exceed your expectations, whether it's a cozy home, a productive workspace, or 
+					a unique commercial environment. We look forward to collaborating with you and turning your interior design dreams into a reality. 
+					Discover the Z Cube Design difference today!
+				</p>
+				<a href="#" class="btn">  </a>
+			</div>
+
+			<div class="card-details">
+
+				<div class="team-wrap text-center box-1" data-toggle="modal" data-target="#mohammed_hashim">
+					<div class="picture">
+						<a href="javascript:void(0)">
+							<figure>
+								<img src="./assets/images/team-photo/hashim-Hebsur.jpg" class="img-fluid d-block w-100" alt="team image" />
+							</figure>
+						</a>
+					</div>
+					<div class="p-details">
+						<h6>Director</h6>
+						<h4>Hashim Hebsur</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+						<a href="mailto:">abc@gmail.com</a>
+					</div>
+				</div>
+
+				<div class="team-wrap text-center box-2" data-toggle="modal" data-target="#mohammed_sajid">
+					<div class="picture">
+						<a href="javascript:void(0)">
+						<figure>
+								<img src="./assets/images/team-photo/sajid-Hebsur.jpg" class="img-fluid d-block w-100" alt="team image" />
+							</figure>
+						</a>
+					</div>
+					<div class="p-details">
+						<h6>Associate Director</h6>
+						<h4>Sajid Hebsur</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+
+						<a href="mailto:">abc@gmail.com</a>
+					</div>
+				</div>
+
+				<div class="team-wrap text-center box-4" data-toggle="modal" data-target="#poonam">
+					<div class="picture">
+						<a href="javascript:void(0)">
+							<figure>
+								<img src="./assets/images/team-photo/poonam.jpg" class="img-fluid d-block w-100" alt="team image" />
+							</figure>
+						</a>
+					</div>
+					<div class="p-details">
+						<h6>Finance & Documentation</h6>
+						<h4>Poonam Gupta</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+
+						<a href="mailto:">abc@gmail.com</a>
+					</div>
+				</div>
+
+				<div class="team-wrap text-center box-3" data-toggle="modal" data-target="#sharuk">
+					<div class="picture">
+						<a href="javascript:void(0)">
+							<figure>
+								<img src="./assets/images/team-photo/saharukh.jpg" class="img-fluid d-block w-100" alt="team image" />
+							</figure>
+						</a>
+					</div>
+					<div class="p-details">
+						<h6>Project Head</h6>
+						<h4>Shahrukh Patel</h4>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+
+						<a href="mailto:">abc@gmail.com</a>
+					</div>
+				</div>
+
+			</div>
+
+			<!--
 			<div class="row justify-content-md-center">
 				<div class="col-lg-11">
 					<div class="row justify-content-md-center">
@@ -62,7 +149,7 @@ $page_head = ucwords($page_head);
 									<h5> Mohammed Hashim  <small class="d-block"> DIRECTOR </small> </h5> 
 								</a>
 							</div>
-						</div> <!-- -->
+						</div>
 						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
 							<div class="card">
 								<a class="d-block" data-toggle="modal" data-target="#sumit_jaiswal">
@@ -70,7 +157,7 @@ $page_head = ucwords($page_head);
 									<h5> Sumit Jaiswal  <small class="d-block"> ASSOCIATE DIRECTOR ( MEP ) </small> </h5> 
 								</a>
 							</div>
-						</div> <!-- -->
+						</div>
 						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
 							<div class="card">
 								<a class="d-block" data-toggle="modal" data-target="#mohammed_hashim">
@@ -78,7 +165,7 @@ $page_head = ucwords($page_head);
 									<h5> Mohammed Hashim  <small class="d-block"> DIRECTOR </small> </h5> 
 								</a>
 							</div>
-						</div> <!-- -->
+						</div>
 						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
 							<div class="card">
 								<a class="d-block" data-toggle="modal" data-target="#sumit_jaiswal">
@@ -86,7 +173,7 @@ $page_head = ucwords($page_head);
 									<h5> Sumit Jaiswal  <small class="d-block"> ASSOCIATE DIRECTOR ( MEP ) </small> </h5> 
 								</a>
 							</div>
-						</div> <!-- -->
+						</div>
 						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
 							<div class="card">
 								<a class="d-block" data-toggle="modal" data-target="#mohammed_hashim">
@@ -94,7 +181,7 @@ $page_head = ucwords($page_head);
 									<h5> Mohammed Hashim  <small class="d-block"> DIRECTOR </small> </h5> 
 								</a>
 							</div>
-						</div> <!-- -->
+						</div>
 						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
 							<div class="card">
 								<a class="d-block" data-toggle="modal" data-target="#sumit_jaiswal">
@@ -102,7 +189,7 @@ $page_head = ucwords($page_head);
 									<h5> Sumit Jaiswal  <small class="d-block"> ASSOCIATE DIRECTOR ( MEP ) </small> </h5> 
 								</a>
 							</div>
-						</div> <!-- -->
+						</div>
 						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
 							<div class="card">
 								<a class="d-block" data-toggle="modal" data-target="#mohammed_hashim">
@@ -110,7 +197,7 @@ $page_head = ucwords($page_head);
 									<h5> Mohammed Hashim  <small class="d-block"> DIRECTOR </small> </h5> 
 								</a>
 							</div>
-						</div> <!-- -->
+						</div>
 						<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
 							<div class="card">
 								<a class="d-block" data-toggle="modal" data-target="#sumit_jaiswal">
@@ -118,10 +205,12 @@ $page_head = ucwords($page_head);
 									<h5> Sumit Jaiswal  <small class="d-block"> ASSOCIATE DIRECTOR ( MEP ) </small> </h5> 
 								</a>
 							</div>
-						</div> <!-- -->
+						</div>
 					</div>  
 				</div>  
 			</div>  
+			-->
+			
 		</div> <!-- Container -->		
 	</section> <!--  -->
 	
@@ -129,29 +218,37 @@ $page_head = ucwords($page_head);
 <?php include('footer.php');?>
  
  
- <!-- Modal -->
+<!-- Modal -->
 <div class="modal fade" id="mohammed_hashim" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Mohammed Hashim  </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
-        <div class="row">
-			<div class="col-lg-4 col-md-3 col-sm-4 col-xs-6">
-				<div class="card">
-					<img src="img/team/mohammed_hashim.jpg" class="img-fluid d-block w-100" />
-				</div>
+      <div class="modal-body d-flex align-items-center justify-content-between">
+		<div class="side-left">
+			<div class="card">
+				<figure>
+					<img src="./assets/images/team-photo/hashim-Hebsur.jpg" class="img-fluid d-block w-100" alt="team image" />
+				</figure>
 			</div>
-			<div class="col-lg-8">
-				<h5> Mohammed Hashim  <small class="d-block"> DIRECTOR </small> </h5> 
-				<p> <a href="mailto:hashim@zcubedesign.com"> hashim@zcubedesign.com </a> / <a href="mailto:info@zcubedesign.com"> info@zcubedesign.com </a> <br />
-				Mohammed Hashim started his career soon after receiving a degree in Interior Design from St. Francis, Borivali in 2000. In the dozen years that followed he’s gone from strength to strength rising swiftly from the position of junior designer to Director of Zcube Design Private Limited. In his career Mohammed Hashim has handled a wide array of projects that range from commercial, high-end residential to hospitality and retail. He’s had the pleasure and privilege to work with and learn immensely from stalwarts of the interior design. He is known for his passionate approach to the business, and the ability to deliver quality projects often before deadlines and attention to detail.</p>
-				<p> <strong class="d-block"> Address </strong> Office No - 13, B-Wing New Sangam Society, Juhu Versova Link Road, Andheri(West) Mumbai - 400053 </p>
-			</div> 
+		</div>
+		<div class="side-right">
+			<div class="content">
+				<h4>Sumit Jaiswal</h4>
+				<h6>ASSOCIATE DIRECTOR ( MEP )</h6>
+				<ul class="social d-flex"> 
+					<li><a href="mailto:sumit@zcubedesign.com"><i class="fa fa-envelope" aria-hidden="true"></i>sumit@zcubedesign.com</a></li>
+				</ul>
+				<p>
+					Mr. Sumit Jaiswal started his career in 2006, 11 years of experience in MEP. He deals his work with higher strength . 
+					The role of Mr. Sumit Jaiswal in Z Cube Design Pvt. Ltd. is to - "Review Contract Documents, making suggestions, 
+					modifications as they relate to the MEP trades.Manage and lead MEP subcontractors throughout duration of the project, 
+					Review and approve material and equipment for MEP systems prior to installation.
+				</p>
+			</div>
 		</div>
       </div> 
     </div>
@@ -159,28 +256,119 @@ $page_head = ucwords($page_head);
 </div>
 
 <!-- Modal -->
-<div class="modal fade" id="sumit_jaiswal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="mohammed_sajid" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Sumit Jaiswal  </h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
-        <div class="row">
-			<div class="col-lg-4 col-md-3 col-sm-4 col-xs-6">
-				<div class="card">
-					<img src="img/team/sumit_jaiswal.jpg" class="img-fluid d-block w-100" />
-				</div>
+      <div class="modal-body d-flex align-items-center justify-content-between">
+		<div class="side-left">
+			<div class="card">
+				<figure>
+					<img src="./assets/images/team-photo/sajid-Hebsur.jpg" class="img-fluid d-block w-100" alt="team image" />
+				</figure>
 			</div>
-			<div class="col-lg-8">
-				<h5> Sumit Jaiswal  <small class="d-block"> ASSOCIATE DIRECTOR ( MEP ) </small> </h5> 
-				<p> <a href="mailto:sumit@zcubedesign.com"> sumit@zcubedesign.com </a> <br />
-				Mr. Sumit Jaiswal started his career in 2006, 11 years of experience in MEP. He deals his work with higher strength . The role of Mr. Sumit Jaiswal in Z Cube Design Pvt. Ltd. is to - "Review Contract Documents, making suggestions, modifications as they relate to the MEP trades.Manage and lead MEP subcontractors throughout duration of the project, Review and approve material and equipment for MEP systems prior to installation. </p>
-				<p> <strong class="d-block"> Address </strong> Office No - 13, B-Wing New Sangam Society, Juhu Versova Link Road, Andheri(West) Mumbai - 400053 </p>
-			</div> 
+		</div>
+		<div class="side-right">
+			<div class="content">
+				<h4>Sajid Hebsur</h4>
+				<h6>ASSOCIATE DIRECTOR ( MEP )</h6>
+				<ul class="social d-flex"> 
+					<li><a href="mailto:sumit@zcubedesign.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+				</ul>
+				<p>
+					Mr. Sajid Hebsur started his career in 2006, 11 years of experience in MEP. He deals his work with higher strength . 
+					The role of Mr. Sajid Hebsur in Z Cube Design Pvt. Ltd. is to - "Review Contract Documents, making suggestions, 
+					modifications as they relate to the MEP trades.Manage and lead MEP subcontractors throughout duration of the project, 
+					Review and approve material and equipment for MEP systems prior to installation.
+				</p>
+			</div>
+		</div>
+      </div> 
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="sharuk" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body d-flex align-items-center justify-content-between">
+		<div class="side-left">
+			<div class="card">
+				<figure>
+					<img src="./assets/images/team-photo/saharukh.jpg" class="img-fluid d-block w-100" alt="team image" />
+				</figure>
+			</div>
+		</div>
+		<div class="side-right">
+			<div class="content">
+				<h4>Shahruk Patel</h4>
+				<h6>ASSOCIATE DIRECTOR ( MEP )</h6>
+				<ul class="social d-flex"> 
+					<li><a href="mailto:sumit@zcubedesign.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+				</ul>
+				<p>
+					Mr. Sharuk Patel started his career in 2006, 11 years of experience in MEP. He deals his work with higher strength . 
+					The role of Mr. Sharuk Patel in Z Cube Design Pvt. Ltd. is to - "Review Contract Documents, making suggestions, 
+					modifications as they relate to the MEP trades.Manage and lead MEP subcontractors throughout duration of the project, 
+					Review and approve material and equipment for MEP systems prior to installation.
+				</p>
+			</div>
+		</div>
+      </div> 
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="poonam" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body d-flex align-items-center justify-content-between">
+		<div class="side-left">
+			<div class="card">
+				<figure>
+					<img src="./assets/images/team-photo/poonam.jpg" class="img-fluid d-block w-100" alt="team image" />
+				</figure>
+			</div>
+		</div>
+		<div class="side-right">
+			<div class="content">
+				<h4>Poonam Gupta</h4>
+				<h6>ASSOCIATE DIRECTOR ( MEP )</h6>
+				<ul class="social d-flex"> 
+					<li><a href="mailto:sumit@zcubedesign.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+				</ul>
+				<p>
+					Mr. Poonam Gupta started his career in 2006, 11 years of experience in MEP. He deals his work with higher strength . 
+					The role of Mr. Poonam Gupta in Z Cube Design Pvt. Ltd. is to - "Review Contract Documents, making suggestions, 
+					modifications as they relate to the MEP trades.Manage and lead MEP subcontractors throughout duration of the project, 
+					Review and approve material and equipment for MEP systems prior to installation.
+				</p>
+			</div>
 		</div>
       </div> 
     </div>
