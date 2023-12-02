@@ -74,6 +74,7 @@
 <script src="js/custom.js"></script>
 <script src="js/banner/theme.js"></script>
 <script src="js/api.js"></script>
+<script src="/index.js"></script>
 <script>
 	// Carousel
 	$('.carousel').carousel({
