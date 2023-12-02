@@ -521,7 +521,7 @@ $page_head = ucwords($page_head);
  
 
 <?php include('footer.php');?>
-<script src="./index.js" /> 
+ 
 <!--
 <script>
     $(document).ready(function () {

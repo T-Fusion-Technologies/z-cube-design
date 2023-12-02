@@ -29,7 +29,7 @@
 				<div class="row align-items-center">
 					<div class="col-lg-9 col-md-8">
 						<div class="contact-us">
-							<a href="tel:02248251313"><i class="fa fa-phone" aria-hidden="true"></i> &nbsp; Call Us: 022 - 48251313</a> 
+							<a href="tel:02226391313"><i class="fa fa-phone" aria-hidden="true"></i> &nbsp; Call Us: 022 – 26391313 / 26392323</a> 
 							<a href="mailto:info@zcubedesign.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> &nbsp; Email : info@zcubedesign.com</a>
 						</div>
 					</div>
@@ -47,7 +47,7 @@
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				<a class="navbar-brand logo" href="index.php">
 					<img alt="" src="img/logo_w.png" class="img-fluid" />
-					<img alt="" src="img/logo.png" class="logo_dark_1 img-fluid" />
+					<img alt="" src="./assets/images/sticky-logo.jpg" class="logo_dark_1 img-fluid" />
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span></span>

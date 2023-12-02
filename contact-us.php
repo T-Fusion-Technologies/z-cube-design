@@ -23,7 +23,6 @@ $page_head = ucwords($page_head);
     
 	<?php include('header.php');?>
 	<script src='https://www.google.com/recaptcha/api.js'></script>
-	
 </head>
 <body>
 	<div class="inner_banner" style="background:url(img/innerbanner/contact.jpg) no-repeat">
@@ -86,10 +85,8 @@ $page_head = ucwords($page_head);
 
 	<section class="location-map p-0">
 	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3769.7162971308317!2d72.827491!3d19.120098!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9250c21b0dbf2ce0!2sZ%20Cube%20Design%20Private%20Limited!5e0!3m2!1sen!2sin!4v1662489006325!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 	</section>
 	
-	<script src="dist/bundle.js"></script>  
+	
 <?php include('footer.php');?>
  

@@ -802,6 +802,325 @@
 			{ "gallery_pic": "assets/images/project-categories/retail/aph-mohali-ap-homes/image-8.jpg" },
 			{ "gallery_pic": "assets/images/project-categories/retail/aph-mohali-ap-homes/image-9.jpg" }
 		]
+	},
+	{
+		"id": "23",
+		"title": "Dr. Agarwal's Eye Hospital",
+		"sub_title": "", 
+		"seo_url": "deh-tumkur",
+		"company": "india",
+		"areas": "8000",
+		"duration": "2.5 Month",
+		"location": "Tumkur Karnataka", 
+		"year": "",	
+		"categories": [
+			{ "category": "all" },
+			{ "category": "commercial" },
+			{ "category": "retail" },
+			{ "category": "residential" },
+			{ "category": "resturant" },
+			{ "category": "heathcare" }
+		],
+		"type": "heathcare",
+		"works": [
+			{ "worktyp": "Fitout" }
+		],
+		"thumbnail": "assets/images/project-categories/health-care/deh-tumkur/img-1.jpg", 
+		"gallery": [
+			{ "gallery_pic": "assets/images/project-categories/health-care/deh-tumkur/img-1.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/health-care/deh-tumkur/img-2.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/health-care/deh-tumkur/img-3.jpeg" }
+		]
+	},
+	{
+		"id": "24",
+		"title": "Beer Cafe",
+		"sub_title": "", 
+		"seo_url": "beer-cafe",
+		"company": "india",
+		"areas": "-",
+		"duration": "- Month",
+		"location": "-", 
+		"year": "",	
+		"categories": [
+			{ "category": "all" },
+			{ "category": "commercial" },
+			{ "category": "retail" },
+			{ "category": "residential" },
+			{ "category": "resturant" },
+			{ "category": "heathcare" }
+		],
+		"type": "resturant",
+		"works": [
+			{ "worktyp": "Fitout" }
+		],
+		"thumbnail": "assets/images/project-categories/resturant/beer-cafe/image-1.jpg", 
+		"gallery": [
+			{ "gallery_pic": "assets/images/project-categories/resturant/beer-cafe/image-1.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/resturant/beer-cafe/image-2.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/resturant/beer-cafe/image-3.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/resturant/beer-cafe/image-4.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/resturant/beer-cafe/image-5.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/resturant/beer-cafe/image-6.jpg" }
+		]
+	},
+	{
+		"id": "25",
+		"title": "asian paints colour academy",
+		"sub_title": "surat", 
+		"seo_url": "asian-paints-colour-academy",
+		"company": "india",
+		"areas": "2700",
+		"duration": "2 Month",
+		"location": "Udhana Darwaza, Surat", 
+		"year": "",	
+		"categories": [
+			{ "category": "all" },
+			{ "category": "commercial" },
+			{ "category": "retail" },
+			{ "category": "residential" },
+			{ "category": "resturant" },
+			{ "category": "heathcare" }
+		],
+		"type": "retail",
+		"works": [
+			{ "worktyp": "Fitout" }
+		],
+		"thumbnail": "assets/images/project-categories/retail/apca-surat/image-10.jpeg", 
+		"gallery": [
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-surat/image-1.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-surat/image-2.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-surat/image-3.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-surat/image-4.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-surat/image-5.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-surat/image-6.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-surat/image-7.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-surat/image-8.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-surat/image-9.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-surat/image-10.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-surat/image-11.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-surat/image-12.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-surat/image-13.jpeg" }
+		]
+	},
+	{
+		"id": "26",
+		"title": "asian paints colour academy",
+		"sub_title": "ahmedabad", 
+		"seo_url": "asian-paints-colour-academy",
+		"company": "india",
+		"areas": "2700",
+		"duration": "2 Month",
+		"location": "sheth Mangaldas Rd, Ahmedabad", 
+		"year": "",	
+		"categories": [
+			{ "category": "all" },
+			{ "category": "commercial" },
+			{ "category": "retail" },
+			{ "category": "residential" },
+			{ "category": "resturant" },
+			{ "category": "heathcare" }
+		],
+		"type": "retail",
+		"works": [
+			{ "worktyp": "Fitout" }
+		],
+		"thumbnail": "assets/images/project-categories/retail/apca-ahemdabad/image-1.jpeg", 
+		"gallery": [
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-ahemdabad/image-1.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-ahemdabad/image-2.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-ahemdabad/image-3.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-ahemdabad/image-4.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-ahemdabad/image-5.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-ahemdabad/image-6.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-ahemdabad/image-7.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-ahemdabad/image-8.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-ahemdabad/image-9.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-ahemdabad/image-10.jpeg" }
+		]
+	},
+	{
+		"id": "27",
+		"title": "asian paints colour academy",
+		"sub_title": "coimbatore", 
+		"seo_url": "asian-paints-colour-academy",
+		"company": "india",
+		"areas": "3000",
+		"duration": "2.5 Month",
+		"location": "Ram Nagar, coimbatore", 
+		"year": "",	
+		"categories": [
+			{ "category": "all" },
+			{ "category": "commercial" },
+			{ "category": "retail" },
+			{ "category": "residential" },
+			{ "category": "resturant" },
+			{ "category": "heathcare" }
+		],
+		"type": "retail",
+		"works": [
+			{ "worktyp": "Fitout" }
+		],
+		"thumbnail": "assets/images/project-categories/retail/apca-coimbatore/image-1.jpg", 
+		"gallery": [
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-coimbatore/image-1.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-coimbatore/image-2.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-coimbatore/image-3.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-coimbatore/image-4.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-coimbatore/image-5.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/apca-coimbatore/image-6.jpeg" }
+		]
+	},
+	{
+		"id": "28",
+		"title": "asian paints colour academy",
+		"sub_title": "vijayawada", 
+		"seo_url": "asian-paints-colour-academy",
+		"company": "india",
+		"areas": "2800",
+		"duration": "2.5 Month",
+		"location": "Vijayawada", 
+		"year": "",	
+		"categories": [
+			{ "category": "all" },
+			{ "category": "commercial" },
+			{ "category": "retail" },
+			{ "category": "residential" },
+			{ "category": "resturant" },
+			{ "category": "heathcare" }
+		],
+		"type": "retail",
+		"works": [
+			{ "worktyp": "Fitout" }
+		],
+		"thumbnail": "assets/images/project-categories/retail/aph-vijayawada/image-1.jpg", 
+		"gallery": [
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-vijayawada/image-1.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-vijayawada/image-2.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-vijayawada/image-3.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-vijayawada/image-4.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-vijayawada/image-5.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-vijayawada/image-6.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-vijayawada/image-7.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-vijayawada/image-8.jpeg" }
+		]
+	},
+	{
+		"id": "29",
+		"title": "asian paints colour academy",
+		"sub_title": "Trivandrum", 
+		"seo_url": "asian-paints-colour-academy",
+		"company": "india",
+		"areas": "2900",
+		"duration": "2.5 Month",
+		"location": "Artech Meenakshi Plaza, Tirupur", 
+		"year": "",	
+		"categories": [
+			{ "category": "all" },
+			{ "category": "commercial" },
+			{ "category": "retail" },
+			{ "category": "residential" },
+			{ "category": "resturant" },
+			{ "category": "heathcare" }
+		],
+		"type": "retail",
+		"works": [
+			{ "worktyp": "Fitout" }
+		],
+		"thumbnail": "assets/images/project-categories/retail/aph-trivandrum/image-5.jpg", 
+		"gallery": [
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-trivandrum/image-1.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-trivandrum/image-2.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-trivandrum/image-3.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-trivandrum/image-4.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-trivandrum/image-5.jpg" }
+		]
+	},
+	{
+		"id": "30",
+		"title": "asian paints colour academy",
+		"sub_title": "Ambattur Chennai", 
+		"seo_url": "asian-paints-colour-academy",
+		"company": "india",
+		"areas": "8200",
+		"duration": "3 Month",
+		"location": "Ambattur, Chennai", 
+		"year": "",	
+		"categories": [
+			{ "category": "all" },
+			{ "category": "commercial" },
+			{ "category": "retail" },
+			{ "category": "residential" },
+			{ "category": "resturant" },
+			{ "category": "heathcare" }
+		],
+		"type": "retail",
+		"works": [
+			{ "worktyp": "Fitout" }
+		],
+		"thumbnail": "assets/images/project-categories/retail/aph-chennai/image-1.jpg", 
+		"gallery": [
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-chennai/image-1.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-chennai/image-2.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-chennai/image-3.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-chennai/image-4.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-chennai/image-5.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-chennai/image-6.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-chennai/image-7.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-chennai/image-8.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-chennai/image-9.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-chennai/image-10.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-chennai/image-11.jpeg" }
+		]
+	},
+	{
+		"id": "31",
+		"title": "asian paints colour academy",
+		"sub_title": "", 
+		"seo_url": "asian-paints-colour-academy",
+		"company": "india",
+		"areas": "8000",
+		"duration": "3 Month",
+		"location": "Pandia Nagar, Tirupur", 
+		"year": "",	
+		"categories": [
+			{ "category": "all" },
+			{ "category": "commercial" },
+			{ "category": "retail" },
+			{ "category": "residential" },
+			{ "category": "resturant" },
+			{ "category": "heathcare" }
+		],
+		"type": "retail",
+		"works": [
+			{ "worktyp": "Fitout" }
+		],
+		"thumbnail": "assets/images/project-categories/retail/aph-tirupur/image-1.jpg", 
+		"gallery": [
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-tirupur/image-1.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-tirupur/image-2.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-tirupur/image-3.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-tirupur/image-4.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-tirupur/image-5.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-tirupur/image-6.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-tirupur/image-7.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-tirupur/image-8.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-tirupur/image-9.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-tirupur/image-10.jpg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-tirupur/image-11.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-tirupur/image-12.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-tirupur/image-13.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-tirupur/image-14.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-tirupur/image-15.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-tirupur/image-16.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-tirupur/image-17.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-tirupur/image-18.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-tirupur/image-19.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-tirupur/image-20.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-tirupur/image-21.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-tirupur/image-22.jpeg" },
+			{ "gallery_pic": "assets/images/project-categories/retail/aph-tirupur/image-23.jpeg" }
+		]
 	}
 ]
 

@@ -48,6 +48,9 @@ $page_head = ucwords($page_head);
 	</div>
 	
 	<section class="projects_listing">	
+		<div class="background-image">
+			<img src="./assets/images/project-page-bg.jpg" alt="">
+		</div>
 		<div class="container">			
 			<div class="row justify-content-md-center">
 				<div class="col-md-12 text-center">

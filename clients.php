@@ -51,7 +51,7 @@ $page_head = ucwords($page_head);
 	
 	<section class="" id="clients"> 	
 		<div class="container">
-			<div class="row justify-content-md-center">
+			<div class="row justify-content-md-center align-items-center">
 
 
 				<div class="col-12 col-lg-4">
@@ -90,6 +90,51 @@ $page_head = ucwords($page_head);
 								<a href="#">
 									<figure>
 										<img src="./assets/images/client-logo/logo-2.png" alt="">
+									</figure>
+								</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="itam-wrap">
+								<a href="#" class="asianpaint">
+									<figure>
+										<img src="./assets/images/client-logo/logo-1.png" alt="">
+									</figure>
+								</a>
+								<a href="#" class="asianpaint">
+									<figure>
+										<img src="./assets/images/client-logo/logo-1.png" alt="">
+									</figure>
+								</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="itam-wrap">
+								<a href="#" class="asianpaint">
+									<figure>
+										<img src="./assets/images/client-logo/logo-1.png" alt="">
+									</figure>
+								</a>
+								<a href="#" class="asianpaint">
+									<figure>
+										<img src="./assets/images/client-logo/logo-1.png" alt="">
+									</figure>
+								</a>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="itam-wrap">
+								<a href="#" class="asianpaint">
+									<figure>
+										<img src="./assets/images/client-logo/logo-1.png" alt="">
+									</figure>
+								</a>
+								<a href="#" class="asianpaint">
+									<figure>
+										<img src="./assets/images/client-logo/logo-1.png" alt="">
 									</figure>
 								</a>
 							</div>

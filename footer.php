@@ -32,7 +32,7 @@
 
 							<ul class="contact-us">
 								<li><a href="mailto:info@zcubedesign.com"><span><i class="fa fa-envelope" aria-hidden="true"></i></span> info@zcubedesign.com </a></li>
-								<li><a href="tel:xxx"><span><i class="fa fa-phone" aria-hidden="true"></i></span> xxx-xxx-xxx</a></li>
+								<li><a href="tel:02226391313"><span><i class="fa fa-phone" aria-hidden="true"></i></span> 022 – 26391313 / 26392323</a></li>
 								<li><a href="https://maps.app.goo.gl/pxH2w6nf5paLDxdF9" target="_blank" class="map"><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>Find on map</a></li>
 							</ul>
 						</div>	
@@ -84,4 +84,3 @@
 <!-- FancyBox -->
 <link rel="stylesheet" href="css/jquery.fancybox.min.css" type="text/css">
 <script src="js/jquery.fancybox.min.js"></script>  
-<!-- <script src="index.js"></script>   -->

@@ -81,7 +81,7 @@ $page_head = ucwords($page_head);
 						<h6>Director</h6>
 						<h4>Hashim Hebsur</h4>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-						<a href="mailto:">abc@gmail.com</a>
+						<a href="mailto:info@zcubedesign.com">info@zcubedesign.com</a>
 					</div>
 				</div>
 
@@ -98,7 +98,7 @@ $page_head = ucwords($page_head);
 						<h4>Sajid Hebsur</h4>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 
-						<a href="mailto:">abc@gmail.com</a>
+						<a href="mailto:info@zcubedesign.com">info@zcubedesign.com</a>
 					</div>
 				</div>
 
@@ -115,7 +115,7 @@ $page_head = ucwords($page_head);
 						<h4>Poonam Gupta</h4>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 
-						<a href="mailto:">abc@gmail.com</a>
+						<a href="mailto:info@zcubedesign.com">info@zcubedesign.com</a>
 					</div>
 				</div>
 
@@ -132,7 +132,7 @@ $page_head = ucwords($page_head);
 						<h4>Shahrukh Patel</h4>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
 
-						<a href="mailto:">abc@gmail.com</a>
+						<a href="mailto:info@zcubedesign.com">info@zcubedesign.com</a>
 					</div>
 				</div>
 
@@ -240,7 +240,7 @@ $page_head = ucwords($page_head);
 				<h4>Sumit Jaiswal</h4>
 				<h6>ASSOCIATE DIRECTOR ( MEP )</h6>
 				<ul class="social d-flex"> 
-					<li><a href="mailto:sumit@zcubedesign.com"><i class="fa fa-envelope" aria-hidden="true"></i>sumit@zcubedesign.com</a></li>
+					<li><a href="mailto:info@zcubedesign.com"><i class="fa fa-envelope" aria-hidden="true"></i>info@zcubedesign.com</a></li>
 				</ul>
 				<p>
 					Mr. Sumit Jaiswal started his career in 2006, 11 years of experience in MEP. He deals his work with higher strength . 
@@ -277,10 +277,7 @@ $page_head = ucwords($page_head);
 				<h4>Sajid Hebsur</h4>
 				<h6>ASSOCIATE DIRECTOR ( MEP )</h6>
 				<ul class="social d-flex"> 
-					<li><a href="mailto:sumit@zcubedesign.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+					<li><a href="mailto:info@zcubedesign.com"><i class="fa fa-envelope" aria-hidden="true"></i>info@zcubedesign.com</a></li>
 				</ul>
 				<p>
 					Mr. Sajid Hebsur started his career in 2006, 11 years of experience in MEP. He deals his work with higher strength . 
@@ -317,10 +314,7 @@ $page_head = ucwords($page_head);
 				<h4>Shahruk Patel</h4>
 				<h6>ASSOCIATE DIRECTOR ( MEP )</h6>
 				<ul class="social d-flex"> 
-					<li><a href="mailto:sumit@zcubedesign.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+					<li><a href="mailto:info@zcubedesign.com"><i class="fa fa-envelope" aria-hidden="true"></i>info@zcubedesign.com</a></li>
 				</ul>
 				<p>
 					Mr. Sharuk Patel started his career in 2006, 11 years of experience in MEP. He deals his work with higher strength . 
@@ -357,10 +351,7 @@ $page_head = ucwords($page_head);
 				<h4>Poonam Gupta</h4>
 				<h6>ASSOCIATE DIRECTOR ( MEP )</h6>
 				<ul class="social d-flex"> 
-					<li><a href="mailto:sumit@zcubedesign.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-					<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+					<li><a href="mailto:info@zcubedesign.com"><i class="fa fa-envelope" aria-hidden="true"></i>info@zcubedesign.com</a></li>
 				</ul>
 				<p>
 					Mr. Poonam Gupta started his career in 2006, 11 years of experience in MEP. He deals his work with higher strength . 

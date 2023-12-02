@@ -1,0 +1,173 @@
+{
+		"id": "8",
+		"title": "Bungalow",
+		"seo_url": "bungalow",
+		"company": "india",
+		"areas": "6500",
+		"duration": "50 Days",
+		"location": "Worli - Mumbai", 
+		"year": "",	
+		"categories": [
+			{ "category": "all" },
+			{ "category": "commercial" },
+			{ "category": "retail" },
+			{ "category": "residential" },
+			{ "category": "hospitality" },
+			{ "category": "architectural" }
+		],
+		"type": "architectural",
+		"works": [
+			{ "worktyp": "turnkey interior" },
+			{ "worktyp": "mep consultant" },
+			{ "worktyp": "project management" } 
+		],
+		"thumbnail": "img/projects/bungalow/thumb.jpg", 
+		"gallery": [
+			{ "gallery_pic": "img/projects/bungalow/1.jpg" },
+			{ "gallery_pic": "img/projects/bungalow/2.jpg" },
+			{ "gallery_pic": "img/projects/bungalow/3.jpg" }
+		]
+	},
+	{
+		"id": "9",
+		"title": "Rajshri Media",
+		"seo_url": "rajshri_media",
+		"company": "india",
+		"areas": "10500",
+		"duration": "3 Month",
+		"location": "Worli - Mumbai", 
+		"year": "",	
+		"categories": [
+			{ "category": "all" },
+			{ "category": "commercial" },
+			{ "category": "retail" },
+			{ "category": "residential" },
+			{ "category": "hospitality" },
+			{ "category": "architectural" }
+		],
+		"type": "commercial",
+		"works": [
+			{ "worktyp": "turnkey interior" },
+			{ "worktyp": "mep consultant" },
+			{ "worktyp": "project management" } 
+		],
+		"thumbnail": "img/projects/rajshri_media/thumb.jpg", 
+		"gallery": [
+			{ "gallery_pic": "img/projects/rajshri_media/1.jpg" },
+			{ "gallery_pic": "img/projects/rajshri_media/2.jpg" },
+			{ "gallery_pic": "img/projects/rajshri_media/3.jpg" },
+			{ "gallery_pic": "img/projects/rajshri_media/4.jpg" },
+			{ "gallery_pic": "img/projects/rajshri_media/5.jpg" },
+			{ "gallery_pic": "img/projects/rajshri_media/6.jpg" },
+			{ "gallery_pic": "img/projects/rajshri_media/7.jpg" },
+			{ "gallery_pic": "img/projects/rajshri_media/8.jpg" }
+		]
+	},
+	{
+		"id": "12",
+		"title": "ULTRACELL",
+		"seo_url": "ultracell",
+		"company": "india",
+		"areas": "1000",
+		"duration": "3 Month",
+		"location": "Chembur - Mumbai", 
+		"year": "",	
+		"categories": [
+			{ "category": "all" },
+			{ "category": "commercial" },
+			{ "category": "retail" },
+			{ "category": "residential" },
+			{ "category": "hospitality" },
+			{ "category": "architectural" }
+		],
+		"type": "commercial",
+		"works": [
+			{ "worktyp": "turnkey interior" },
+			{ "worktyp": "mep consultant" },
+			{ "worktyp": "project management" } 
+		],
+		"thumbnail": "img/projects/ultracell/thumb.jpg", 
+		"gallery": [
+			{ "gallery_pic": "img/projects/ultracell/1.jpg" },
+			{ "gallery_pic": "img/projects/ultracell/2.jpg" },
+			{ "gallery_pic": "img/projects/ultracell/3.jpg" },
+			{ "gallery_pic": "img/projects/ultracell/4.jpg" },
+			{ "gallery_pic": "img/projects/ultracell/5.jpg" },
+			{ "gallery_pic": "img/projects/ultracell/6.jpg" },
+			{ "gallery_pic": "img/projects/ultracell/7.jpg" },
+			{ "gallery_pic": "img/projects/ultracell/8.jpg" },
+			{ "gallery_pic": "img/projects/ultracell/9.jpg" }
+		]
+	},
+	{
+		"id": "13",
+		"title": "Victoria Australia",
+		"seo_url": "victoria-australia",
+		"company": "india",
+		"areas": "1200",
+		"duration": "45 Days",
+		"location": "Nariman Point - Mumbai", 
+		"year": "",	
+		"categories": [
+			{ "category": "all" },
+			{ "category": "commercial" },
+			{ "category": "retail" },
+			{ "category": "residential" },
+			{ "category": "hospitality" },
+			{ "category": "architectural" }
+		],
+		"type": "commercial",
+		"works": [
+			{ "worktyp": "turnkey interior" },
+			{ "worktyp": "mep consultant" },
+			{ "worktyp": "project management" } 
+		],
+		"thumbnail": "img/projects/victoria_australia/thumb.jpg", 
+		"gallery": [
+			{ "gallery_pic": "img/projects/victoria_australia/1.jpg" },
+			{ "gallery_pic": "img/projects/victoria_australia/2.jpg" },
+			{ "gallery_pic": "img/projects/victoria_australia/3.jpg" },
+			{ "gallery_pic": "img/projects/victoria_australia/4.jpg" },
+			{ "gallery_pic": "img/projects/victoria_australia/5.jpg" },
+			{ "gallery_pic": "img/projects/victoria_australia/6.jpg" },
+			{ "gallery_pic": "img/projects/victoria_australia/7.jpg" },
+			{ "gallery_pic": "img/projects/victoria_australia/8.jpg" },
+			{ "gallery_pic": "img/projects/victoria_australia/9.jpg" }
+		]
+	},
+	{
+		"id": "15",
+		"title": "Asian Paints Limited",
+		"seo_url": "Asian-Paints-Limited",
+		"company": "india",
+		"areas": "",
+		"duration": "18 Month",
+		"location": "Pan India", 
+		"year": "",	
+		"categories": [
+			{ "category": "all" },
+			{ "category": "commercial" },
+			{ "category": "retail" },
+			{ "category": "residential" },
+			{ "category": "hospitality" },
+			{ "category": "architectural" }
+		],
+		"type": "retail",
+		"works": [
+			{ "worktyp": "turnkey interior" },
+			{ "worktyp": "mep consultant" },
+			{ "worktyp": "project management" } 
+		], 
+		"thumbnail": "img/projects/asian_paints_limited/thumb.jpg", 
+		"gallery": [
+			{ "gallery_pic": "img/projects/asian_paints_limited/1.jpg" },
+			{ "gallery_pic": "img/projects/asian_paints_limited/2.jpg" },
+			{ "gallery_pic": "img/projects/asian_paints_limited/3.jpg" },
+			{ "gallery_pic": "img/projects/asian_paints_limited/4.jpg" },
+			{ "gallery_pic": "img/projects/asian_paints_limited/5.jpg" },
+			{ "gallery_pic": "img/projects/asian_paints_limited/6.jpg" },
+			{ "gallery_pic": "img/projects/asian_paints_limited/7.jpg" },
+			{ "gallery_pic": "img/projects/asian_paints_limited/8.jpg" },
+			{ "gallery_pic": "img/projects/asian_paints_limited/9.jpg" }
+		]
+	}
