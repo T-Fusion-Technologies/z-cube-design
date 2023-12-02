@@ -111,7 +111,7 @@ document.writeln("<script type='text/javascript' src='js/jquery.mixitup.min.js?v
       $(".loadr").removeClass("d-none");
     },
     success: function(response, status)  {
-      console.log('response ', response);
+      // console.log('response ', response);
       // Once our API call send success
       // this function gets called.
       // console.log(response)

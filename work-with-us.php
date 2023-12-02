@@ -267,7 +267,7 @@ $page_head = ucwords($page_head);
 								<span id="messageErr" class="error-message"><?php echo $messageErr;?></span>
 							</div>
 							<div class="form-group required">
-								<div class="g-recaptcha" data-sitekey="6LdyBccUAAAAAJ5wMRUF-6Lzh9Jvhu8BI82l-eQV"></div>
+								<div class="g-recaptcha" data-sitekey="6LdO8RMpAAAAAE3DbsIAimDirw3rh0bO5Rov7vMw"></div>
 								<span id="captchaErr" class="error-message"><?php echo $captchaErr;?></span>
 							</div>
 							<div class="submit">
@@ -282,7 +282,6 @@ $page_head = ucwords($page_head);
     </section>
 
 <?php include('footer.php');?>
-
 	<script>
 		/*
 			By Osvaldas Valutis, www.osvaldas.info
